@@ -1,0 +1,667 @@
+transaction_id,date,vendor_id,vendor_name,department,category,amount,payment_method,invoice_id,description,approval_status
+TXN-00289,2025-03-01,VEND-0015,ABC Traders,Operations,Office Supplies,1397.13,Cheque,INV-00289,Office Supplies - ABC Traders,Approved
+TXN-00412,2025-03-01,VEND-0017,Redline Partners,Sales,Software Subscriptions,1955.67,Corporate Card,INV-00412,Software Subscriptions - Redline Partners,Approved
+TXN-00050,2025-03-01,VEND-0024,Crestview Partners,Finance,Consulting,1420.89,Corporate Card,INV-00050,Consulting - Crestview Partners,Pending
+TXN-00559,2025-03-01,VEND-0028,Anchor Group,Marketing,Advertising,6517.4,Corporate Card,INV-00559,Advertising - Anchor Group,Pending
+TXN-00452,2025-03-02,VEND-0012,Silverline Services,Marketing,Advertising,5509.35,ACH,INV-00452,Advertising - Silverline Services,Approved
+TXN-00003,2025-03-02,VEND-0031,Anchor Services,Engineering,Software Licenses,2815.36,Bank Transfer,INV-00003,Software Licenses - Anchor Services,Approved
+TXN-00234,2025-03-02,VEND-0037,Silverline Solutions,Sales,Travel,3232.91,Corporate Card,INV-00234,Travel - Silverline Solutions,Pending
+TXN-00490,2025-03-02,VEND-0011,Crestview Enterprises,Engineering,Hardware,3029.13,ACH,INV-00490,Hardware - Crestview Enterprises,Pending
+TXN-00439,2025-03-04,VEND-0033,Silverline Supplies,Operations,Logistics,3942.12,Corporate Card,INV-00439,Logistics - Silverline Supplies,Approved
+TXN-00456,2025-03-04,VEND-0006,Silverline Group,HR,Payroll Services,3667.96,Bank Transfer,INV-00456,Payroll Services - Silverline Group,Approved
+TXN-00457,2025-03-05,VEND-0039,Northstar Supplies,Operations,Logistics,1981.39,ACH,INV-00457,Logistics - Northstar Supplies,Approved
+TXN-00104,2025-03-05,VEND-0008,Anchor Partners,Sales,Commissions,11607.76,Bank Transfer,INV-00104,Commissions - Anchor Partners,Pending
+TXN-00266,2025-03-05,VEND-0044,Redline Solutions,Sales,Software Subscriptions,4036.2,Cheque,INV-00266,Software Subscriptions - Redline Solutions,Pending
+TXN-00204,2025-03-05,VEND-0009,Bluewave Partners,Engineering,Hardware,3387.09,Corporate Card,INV-00204,Hardware - Bluewave Partners,Pending
+TXN-00284,2025-03-05,VEND-0039,Northstar Supplies,Marketing,Advertising,1828.41,Cheque,INV-00284,Advertising - Northstar Supplies,Approved
+TXN-00419,2025-03-06,VEND-0035,Prime Enterprises,Engineering,Cloud Infrastructure,7206.06,Cheque,INV-00419,Cloud Infrastructure - Prime Enterprises,Pending
+TXN-00174,2025-03-06,VEND-0023,Anchor Enterprises,Finance,Banking Fees,6083.05,ACH,INV-00174,Banking Fees - Anchor Enterprises,Pending
+TXN-00348,2025-03-06,VEND-0007,Crestview Enterprises,Operations,Office Supplies,24343.85,Bank Transfer,INV-00348,Office Supplies - Crestview Enterprises,Approved
+TXN-00044,2025-03-07,VEND-0010,Anchor Services,Engineering,Software Licenses,5043.63,Corporate Card,INV-00044,Software Licenses - Anchor Services,Pending
+TXN-00040,2025-03-07,VEND-0033,Silverline Supplies,Engineering,Contractors,3309.53,Corporate Card,INV-00040,Contractors - Silverline Supplies,Approved
+TXN-00086,2025-03-08,VEND-0039,Northstar Supplies,Finance,Audit Fees,1357.05,Corporate Card,INV-00086,Audit Fees - Northstar Supplies,Approved
+TXN-00588,2025-03-08,VEND-0038,Summit Traders,Operations,Facilities,980.89,Cheque,INV-00588,Facilities - Summit Traders,Approved
+TXN-00046,2025-03-08,VEND-0043,Prime Solutions,Sales,Software Subscriptions,3963.38,Bank Transfer,INV-00046,Software Subscriptions - Prime Solutions,Approved
+TXN-00626,2025-03-08,VEND-0012,Silverline Services,Sales,Commissions,3403.0,ACH,INV-00626,Commissions - Silverline Services,Approved
+TXN-00310,2025-03-08,VEND-0002,Bluewave Traders,Finance,Software Subscriptions,4044.2,Corporate Card,INV-00310,Software Subscriptions - Bluewave Traders,Approved
+TXN-00634,2025-03-08,VEND-0025,Redline Group,Operations,Utilities,3077.82,Cheque,INV-00634,Utilities - Redline Group,Approved
+TXN-00311,2025-03-09,VEND-0020,Northstar Industries,Finance,Consulting,2064.35,Corporate Card,INV-00311,Consulting - Northstar Industries,Approved
+TXN-00628,2025-03-09,VEND-0024,Crestview Partners,Sales,Client Entertainment,2008.77,Corporate Card,INV-00628,Client Entertainment - Crestview Partners,Approved
+TXN-00422,2025-03-09,VEND-0044,Redline Solutions,Finance,Audit Fees,5116.79,ACH,INV-00422,Audit Fees - Redline Solutions,Approved
+TXN-00594,2025-03-10,VEND-0017,Redline Partners,Engineering,Software Licenses,1655.98,ACH,INV-00594,Software Licenses - Redline Partners,Approved
+TXN-00378,2025-03-11,VEND-0029,Northstar Industries,Engineering,Hardware,2592.71,Cheque,INV-00378,Hardware - Northstar Industries,Approved
+TXN-00257,2025-03-11,VEND-0019,Prime Solutions,Marketing,Events,1933.11,Corporate Card,INV-00257,Events - Prime Solutions,Approved
+TXN-00336,2025-03-12,VEND-0015,ABC Traders,Marketing,Advertising,951.15,Cheque,INV-00336,Advertising - ABC Traders,Approved
+TXN-00593,2025-03-12,VEND-0004,ABC Supplies,Marketing,Events,21743.0,ACH,INV-00593,Events - ABC Supplies,Pending
+TXN-00190,2025-03-12,VEND-0032,Crestview Industries,Marketing,Events,20671.0,Bank Transfer,INV-00190,Events - Crestview Industries,Pending
+TXN-00112,2025-03-12,VEND-0016,Bluewave Services,Engineering,Hardware,2046.41,Bank Transfer,INV-00112,Hardware - Bluewave Services,Approved
+TXN-00553,2025-03-12,VEND-0014,Vertex Traders,Finance,Audit Fees,1486.92,Bank Transfer,INV-00553,Audit Fees - Vertex Traders,Approved
+TXN-00358,2025-03-12,VEND-0010,Anchor Services,Sales,Travel,5520.15,Bank Transfer,INV-00358,Travel - Anchor Services,Approved
+TXN-00065,2025-03-13,VEND-0024,Crestview Partners,Finance,Consulting,1471.83,Corporate Card,INV-00065,Consulting - Crestview Partners,Approved
+TXN-00199,2025-03-13,VEND-0006,Silverline Group,HR,Recruiting,5007.5,Cheque,INV-00199,Recruiting - Silverline Group,Approved
+TXN-00012,2025-03-13,VEND-0037,Silverline Solutions,HR,Recruiting,25901.81,Bank Transfer,INV-00012,Recruiting - Silverline Solutions,Approved
+TXN-00436,2025-03-14,VEND-0002,Bluewave Traders,Finance,Software Subscriptions,4683.82,Cheque,INV-00436,Software Subscriptions - Bluewave Traders,Pending
+TXN-00008,2025-03-14,VEND-0034,Silverline Enterprises,Sales,Commissions,1484.76,Bank Transfer,INV-00008,Commissions - Silverline Enterprises,Approved
+TXN-00220,2025-03-14,VEND-0035,Prime Enterprises,Finance,Consulting,9241.35,Cheque,INV-00220,Consulting - Prime Enterprises,Approved
+TXN-00229,2025-03-14,VEND-0027,Silverline Enterprises,Operations,Facilities,2213.58,Corporate Card,INV-00229,Facilities - Silverline Enterprises,Approved
+TXN-00365,2025-03-14,VEND-0001,Prime Supplies,Operations,Utilities,10391.59,ACH,INV-00365,Utilities - Prime Supplies,Approved
+TXN-00463,2025-03-15,VEND-0011,Crestview Enterprises,HR,Payroll Services,3109.58,Bank Transfer,INV-00463,Payroll Services - Crestview Enterprises,Approved
+TXN-00590,2025-03-15,VEND-0004,ABC Supplies,HR,Benefits Admin,26489.42,ACH,INV-00590,Benefits Admin - ABC Supplies,Approved
+TXN-00018,2025-03-15,VEND-0004,ABC Supplies,Sales,Client Entertainment,15167.59,Bank Transfer,INV-00018,Client Entertainment - ABC Supplies,Approved
+TXN-00400,2025-03-16,VEND-0035,Prime Enterprises,Operations,Utilities,5040.65,Bank Transfer,INV-00400,Utilities - Prime Enterprises,Pending
+TXN-00369,2025-03-16,VEND-0041,Summit Traders,HR,Payroll Services,10251.1,Corporate Card,INV-00369,Payroll Services - Summit Traders,Approved
+TXN-00128,2025-03-16,VEND-0002,Bluewave Traders,Engineering,Cloud Infrastructure,1918.18,Corporate Card,INV-00128,Cloud Infrastructure - Bluewave Traders,Approved
+TXN-00197,2025-03-16,VEND-0035,Prime Enterprises,Operations,Logistics,8264.7,ACH,INV-00197,Logistics - Prime Enterprises,Pending
+TXN-00623,2025-03-17,VEND-0029,Northstar Industries,Marketing,Advertising,3371.01,Corporate Card,INV-00623,Advertising - Northstar Industries,Approved
+TXN-00287,2025-03-17,VEND-0009,Bluewave Partners,HR,Payroll Services,4255.16,Bank Transfer,INV-00287,Payroll Services - Bluewave Partners,Approved
+TXN-00260,2025-03-17,VEND-0019,Prime Solutions,Finance,Banking Fees,2528.1,Cheque,INV-00260,Banking Fees - Prime Solutions,Approved
+TXN-00004,2025-03-18,VEND-0012,Silverline Services,Marketing,Events,1938.06,Bank Transfer,INV-00004,Events - Silverline Services,Approved
+TXN-00453,2025-03-18,VEND-0043,Prime Solutions,Finance,Software Subscriptions,6504.35,Corporate Card,INV-00453,Software Subscriptions - Prime Solutions,Approved
+TXN-00226,2025-03-18,VEND-0009,Bluewave Partners,Engineering,Contractors,2870.1,Corporate Card,INV-00226,Contractors - Bluewave Partners,Approved
+TXN-00093,2025-03-18,VEND-0005,Bluewave Supplies,Sales,Software Subscriptions,6575.25,Cheque,INV-00093,Software Subscriptions - Bluewave Supplies,Approved
+TXN-00200,2025-03-18,VEND-0018,Vertex Traders,Engineering,Software Licenses,6038.6,Corporate Card,INV-00200,Software Licenses - Vertex Traders,Approved
+TXN-00437,2025-03-19,VEND-0045,Crestview Group,HR,Recruiting,1874.12,Corporate Card,INV-00437,Recruiting - Crestview Group,Approved
+TXN-00091,2025-03-20,VEND-0028,Anchor Group,Finance,Software Subscriptions,6557.95,Corporate Card,INV-00091,Software Subscriptions - Anchor Group,Approved
+TXN-00070,2025-03-20,VEND-0032,Crestview Industries,Operations,Office Supplies,19591.13,Cheque,INV-00070,Office Supplies - Crestview Industries,Approved
+TXN-00253,2025-03-20,VEND-0008,Anchor Partners,Operations,Logistics,8987.22,Bank Transfer,INV-00253,Logistics - Anchor Partners,Approved
+TXN-00406,2025-03-20,VEND-0011,Crestview Enterprises,HR,Benefits Admin,4282.24,Bank Transfer,INV-00406,Benefits Admin - Crestview Enterprises,Approved
+TXN-00609,2025-03-20,VEND-0020,Northstar Industries,Finance,Consulting,1781.99,Bank Transfer,INV-00609,Consulting - Northstar Industries,Pending
+TXN-00488,2025-03-20,VEND-0023,Anchor Enterprises,Operations,Office Supplies,6709.13,Cheque,INV-00488,Office Supplies - Anchor Enterprises,Pending
+TXN-00314,2025-03-20,VEND-0029,Northstar Industries,Operations,Office Supplies,3906.1,Corporate Card,INV-00314,Office Supplies - Northstar Industries,Approved
+TXN-00268,2025-03-20,VEND-0039,Northstar Supplies,Engineering,Software Licenses,2167.91,Cheque,INV-00268,Software Licenses - Northstar Supplies,Approved
+TXN-00011,2025-03-20,VEND-0018,Vertex Traders,Sales,Client Entertainment,8155.24,ACH,INV-00011,Client Entertainment - Vertex Traders,Approved
+TXN-00469,2025-03-20,VEND-0040,Redline Supplies,Finance,Consulting,6399.42,Cheque,INV-00469,Consulting - Redline Supplies,Approved
+TXN-00332,2025-03-21,VEND-0029,Northstar Industries,HR,Benefits Admin,3052.06,Cheque,INV-00332,Benefits Admin - Northstar Industries,Approved
+TXN-00304,2025-03-22,VEND-0028,Anchor Group,HR,Benefits Admin,7516.12,ACH,INV-00304,Benefits Admin - Anchor Group,Approved
+TXN-00102,2025-03-22,VEND-0011,Crestview Enterprises,HR,Training,4856.62,Corporate Card,INV-00102,Training - Crestview Enterprises,Approved
+TXN-00658,2025-03-23,VEND-0028,Anchor Group,Finance,Software Subscriptions,6602.55,Corporate Card,INV-00658,Software Subscriptions - Anchor Group,Approved
+TXN-00145,2025-03-24,VEND-0030,Prime Solutions,Marketing,Software Subscriptions,5355.42,Corporate Card,INV-00145,Software Subscriptions - Prime Solutions,Approved
+TXN-00462,2025-03-24,VEND-0012,Silverline Services,Finance,Audit Fees,3456.59,ACH,INV-00462,Audit Fees - Silverline Services,Pending
+TXN-00606,2025-03-24,VEND-0001,Prime Supplies,Engineering,Hardware,7217.51,Bank Transfer,INV-00606,Hardware - Prime Supplies,Approved
+TXN-00198,2025-03-24,VEND-0016,Bluewave Services,Marketing,Software Subscriptions,2971.86,Corporate Card,INV-00198,Software Subscriptions - Bluewave Services,Approved
+TXN-00615,2025-03-24,VEND-0040,Redline Supplies,Operations,Facilities,4516.16,Corporate Card,INV-00615,Facilities - Redline Supplies,Approved
+TXN-00184,2025-03-24,VEND-0032,Crestview Industries,HR,Benefits Admin,16175.0,ACH,INV-00184,Benefits Admin - Crestview Industries,Approved
+TXN-00059,2025-03-24,VEND-0002,Bluewave Traders,Finance,Banking Fees,4051.62,Corporate Card,INV-00059,Banking Fees - Bluewave Traders,Approved
+TXN-00179,2025-03-24,VEND-0004,ABC Supplies,Operations,Utilities,16958.2,Cheque,INV-00179,Utilities - ABC Supplies,Pending
+TXN-00624,2025-03-24,VEND-0038,Summit Traders,Sales,Client Entertainment,1018.43,Cheque,INV-00624,Client Entertainment - Summit Traders,Approved
+TXN-00007,2025-03-25,VEND-0005,Bluewave Supplies,Engineering,Cloud Infrastructure,2423.02,ACH,INV-00007,Cloud Infrastructure - Bluewave Supplies,Pending
+TXN-00191,2025-03-25,VEND-0022,ABC Traders,Sales,Travel,4100.15,Corporate Card,INV-00191,Travel - ABC Traders,Approved
+TXN-00458,2025-03-25,VEND-0034,Silverline Enterprises,Engineering,Cloud Infrastructure,7930.37,Corporate Card,INV-00458,Cloud Infrastructure - Silverline Enterprises,Approved
+TXN-00110,2025-03-26,VEND-0012,Silverline Services,Operations,Logistics,4684.89,Corporate Card,INV-00110,Logistics - Silverline Services,Pending
+TXN-00655,2025-03-26,VEND-0030,Prime Solutions,Marketing,Software Subscriptions,5407.98,Corporate Card,INV-00655,Software Subscriptions - Prime Solutions,Approved
+TXN-00472,2025-03-26,VEND-0011,Crestview Enterprises,Operations,Facilities,4070.7,ACH,INV-00472,Facilities - Crestview Enterprises,Approved
+TXN-00212,2025-03-26,VEND-0034,Silverline Enterprises,HR,Payroll Services,727.95,Bank Transfer,INV-00212,Payroll Services - Silverline Enterprises,Approved
+TXN-00482,2025-03-27,VEND-0005,Bluewave Supplies,HR,Payroll Services,3794.07,Bank Transfer,INV-00482,Payroll Services - Bluewave Supplies,Approved
+TXN-00604,2025-03-27,VEND-0039,Northstar Supplies,Sales,Software Subscriptions,2166.79,Corporate Card,INV-00604,Software Subscriptions - Northstar Supplies,Approved
+TXN-00508,2025-03-27,VEND-0041,Summit Traders,Marketing,Software Subscriptions,8734.17,Cheque,INV-00508,Software Subscriptions - Summit Traders,Pending
+TXN-00256,2025-03-27,VEND-0008,Anchor Partners,Marketing,Software Subscriptions,35426.64,Cheque,INV-00256,Software Subscriptions - Anchor Partners,Approved
+TXN-00094,2025-03-28,VEND-0005,Bluewave Supplies,Sales,Commissions,3099.49,ACH,INV-00094,Commissions - Bluewave Supplies,Approved
+TXN-00503,2025-03-28,VEND-0025,Redline Group,Operations,Facilities,3440.14,Corporate Card,INV-00503,Facilities - Redline Group,Approved
+TXN-00479,2025-03-28,VEND-0033,Silverline Supplies,Operations,Logistics,6003.45,Bank Transfer,INV-00479,Logistics - Silverline Supplies,Approved
+TXN-00222,2025-03-28,VEND-0003,Silverline Services,Sales,Client Entertainment,10096.34,Cheque,INV-00222,Client Entertainment - Silverline Services,Approved
+TXN-00009,2025-03-28,VEND-0043,Prime Solutions,Finance,Banking Fees,4736.93,Corporate Card,INV-00009,Banking Fees - Prime Solutions,Approved
+TXN-00285,2025-03-29,VEND-0010,Anchor Services,Engineering,Contractors,7147.71,Cheque,INV-00285,Contractors - Anchor Services,Approved
+TXN-00645,2025-03-29,VEND-0039,Northstar Supplies,HR,Training,2133.7,Cheque,INV-00645,Training - Northstar Supplies,Approved
+TXN-00496,2025-03-30,VEND-0016,Bluewave Services,Sales,Software Subscriptions,3233.35,Corporate Card,INV-00496,Software Subscriptions - Bluewave Services,Approved
+TXN-00029,2025-03-30,VEND-0030,Prime Solutions,Engineering,Hardware,3595.55,Bank Transfer,INV-00029,Hardware - Prime Solutions,Approved
+TXN-00520,2025-03-30,VEND-0009,Bluewave Partners,Engineering,Contractors,2986.86,Cheque,INV-00520,Contractors - Bluewave Partners,Approved
+TXN-00408,2025-03-30,VEND-0018,Vertex Traders,HR,Payroll Services,4507.38,Corporate Card,INV-00408,Payroll Services - Vertex Traders,Approved
+TXN-00525,2025-03-30,VEND-0045,Crestview Group,Engineering,Hardware,1828.48,Corporate Card,INV-00525,Hardware - Crestview Group,Pending
+TXN-00596,2025-03-31,VEND-0006,Silverline Group,HR,Benefits Admin,2731.42,Bank Transfer,INV-00596,Benefits Admin - Silverline Group,Approved
+TXN-00561,2025-03-31,VEND-0009,Bluewave Partners,Finance,Banking Fees,3149.7,ACH,INV-00561,Banking Fees - Bluewave Partners,Approved
+TXN-00146,2025-03-31,VEND-0007,Crestview Enterprises,Marketing,Software Subscriptions,17617.76,Corporate Card,INV-00146,Software Subscriptions - Crestview Enterprises,Pending
+TXN-00585,2025-03-31,VEND-0006,Silverline Group,Finance,Software Subscriptions,4168.74,Bank Transfer,INV-00585,Software Subscriptions - Silverline Group,Approved
+TXN-00620,2025-04-01,VEND-0029,Northstar Industries,Marketing,Events,5041.88,Bank Transfer,INV-00620,Events - Northstar Industries,Approved
+TXN-00554,2025-04-01,VEND-0022,ABC Traders,Sales,Travel,3771.05,Corporate Card,INV-00554,Travel - ABC Traders,Pending
+TXN-00143,2025-04-01,VEND-0032,Crestview Industries,Sales,Commissions,20774.49,Bank Transfer,INV-00143,Commissions - Crestview Industries,Approved
+TXN-00333,2025-04-02,VEND-0011,Crestview Enterprises,HR,Benefits Admin,2555.31,Cheque,INV-00333,Benefits Admin - Crestview Enterprises,Approved
+TXN-00327,2025-04-02,VEND-0033,Silverline Supplies,HR,Recruiting,6788.05,Cheque,INV-00327,Recruiting - Silverline Supplies,Approved
+TXN-00356,2025-04-02,VEND-0011,Crestview Enterprises,HR,Recruiting,1282.75,Bank Transfer,INV-00356,Recruiting - Crestview Enterprises,Pending
+TXN-00025,2025-04-03,VEND-0005,Bluewave Supplies,Engineering,Hardware,3907.58,Cheque,INV-00025,Hardware - Bluewave Supplies,Approved
+TXN-00203,2025-04-03,VEND-0014,Vertex Traders,Marketing,Advertising,928.75,Bank Transfer,INV-00203,Advertising - Vertex Traders,Pending
+TXN-00329,2025-04-03,VEND-0034,Silverline Enterprises,HR,Training,1884.7,ACH,INV-00329,Training - Silverline Enterprises,Approved
+TXN-00543,2025-04-04,VEND-0032,Crestview Industries,Operations,Facilities,21465.38,ACH,INV-00543,Facilities - Crestview Industries,Approved
+TXN-00066,2025-04-04,VEND-0032,Crestview Industries,Marketing,Software Subscriptions,23155.72,ACH,INV-00066,Software Subscriptions - Crestview Industries,Approved
+TXN-00564,2025-04-04,VEND-0009,Bluewave Partners,Engineering,Contractors,2898.31,Corporate Card,INV-00564,Contractors - Bluewave Partners,Approved
+TXN-00612,2025-04-04,VEND-0038,Summit Traders,Marketing,Events,932.76,Bank Transfer,INV-00612,Events - Summit Traders,Approved
+TXN-00450,2025-04-05,VEND-0021,Silverline Traders,Operations,Utilities,20227.55,ACH,INV-00450,Utilities - Silverline Traders,Approved
+TXN-00010,2025-04-05,VEND-0020,Northstar Industries,HR,Payroll Services,1322.23,ACH,INV-00010,Payroll Services - Northstar Industries,Approved
+TXN-00528,2025-04-05,VEND-0009,Bluewave Partners,Sales,Software Subscriptions,2933.1,Corporate Card,INV-00528,Software Subscriptions - Bluewave Partners,Pending
+TXN-00569,2025-04-05,VEND-0008,Anchor Partners,Sales,Software Subscriptions,9222.23,Corporate Card,INV-00569,Software Subscriptions - Anchor Partners,Pending
+TXN-00381,2025-04-05,VEND-0030,Prime Solutions,Finance,Banking Fees,4262.74,Bank Transfer,INV-00381,Banking Fees - Prime Solutions,Approved
+TXN-00630,2025-04-05,VEND-0009,Bluewave Partners,Operations,Office Supplies,3078.68,ACH,INV-00630,Office Supplies - Bluewave Partners,Approved
+TXN-00357,2025-04-06,VEND-0005,Bluewave Supplies,Operations,Logistics,3608.37,Corporate Card,INV-00357,Logistics - Bluewave Supplies,Approved
+TXN-00509,2025-04-06,VEND-0008,Anchor Partners,Marketing,Advertising,8714.53,Cheque,INV-00509,Advertising - Anchor Partners,Pending
+TXN-00282,2025-04-07,VEND-0010,Anchor Services,Marketing,Content,7331.66,Corporate Card,INV-00282,Content - Anchor Services,Approved
+TXN-00166,2025-04-07,VEND-0036,Redline Supplies,Operations,Office Supplies,1986.57,Corporate Card,INV-00166,Office Supplies - Redline Supplies,Approved
+TXN-00201,2025-04-07,VEND-0028,Anchor Group,Engineering,Hardware,3327.55,Bank Transfer,INV-00201,Hardware - Anchor Group,Pending
+TXN-00366,2025-04-07,VEND-0020,Northstar Industries,Finance,Consulting,1630.66,Corporate Card,INV-00366,Consulting - Northstar Industries,Approved
+TXN-00060,2025-04-07,VEND-0011,Crestview Enterprises,Engineering,Software Licenses,2647.71,Bank Transfer,INV-00060,Software Licenses - Crestview Enterprises,Approved
+TXN-00250,2025-04-08,VEND-0025,Redline Group,Finance,Banking Fees,5453.83,ACH,INV-00250,Banking Fees - Redline Group,Approved
+TXN-00117,2025-04-08,VEND-0044,Redline Solutions,Finance,Audit Fees,2068.74,Corporate Card,INV-00117,Audit Fees - Redline Solutions,Approved
+TXN-00581,2025-04-09,VEND-0042,Crestview Services,HR,Training,3202.59,Cheque,INV-00581,Training - Crestview Services,Pending
+TXN-00016,2025-04-09,VEND-0016,Bluewave Services,Finance,Consulting,1940.81,Corporate Card,INV-00016,Consulting - Bluewave Services,Pending
+TXN-00403,2025-04-09,VEND-0040,Redline Supplies,Engineering,Contractors,5789.99,ACH,INV-00403,Contractors - Redline Supplies,Approved
+TXN-00068,2025-04-10,VEND-0006,Silverline Group,HR,Payroll Services,3547.6,ACH,INV-00068,Payroll Services - Silverline Group,Pending
+TXN-00591,2025-04-10,VEND-0007,Crestview Enterprises,Engineering,Hardware,11436.59,Cheque,INV-00591,Hardware - Crestview Enterprises,Approved
+TXN-00123,2025-04-10,VEND-0038,Summit Traders,Engineering,Cloud Infrastructure,851.36,Bank Transfer,INV-00123,Cloud Infrastructure - Summit Traders,Pending
+TXN-00647,2025-04-10,VEND-0019,Prime Solutions,Operations,Utilities,1573.82,ACH,INV-00647,Utilities - Prime Solutions,Approved
+TXN-00228,2025-04-10,VEND-0023,Anchor Enterprises,Sales,Software Subscriptions,4028.23,Cheque,INV-00228,Software Subscriptions - Anchor Enterprises,Pending
+TXN-00586,2025-04-11,VEND-0008,Anchor Partners,Finance,Audit Fees,8254.47,ACH,INV-00586,Audit Fees - Anchor Partners,Approved
+TXN-00089,2025-04-11,VEND-0028,Anchor Group,Engineering,Cloud Infrastructure,8998.36,Cheque,INV-00089,Cloud Infrastructure - Anchor Group,Approved
+TXN-00540,2025-04-12,VEND-0021,Silverline Traders,HR,Payroll Services,12477.64,Corporate Card,INV-00540,Payroll Services - Silverline Traders,Approved
+TXN-00181,2025-04-12,VEND-0010,Anchor Services,Operations,Logistics,5855.06,Cheque,INV-00181,Logistics - Anchor Services,Approved
+TXN-00307,2025-04-12,VEND-0015,ABC Traders,HR,Payroll Services,1635.06,ACH,INV-00307,Payroll Services - ABC Traders,Pending
+TXN-00014,2025-04-12,VEND-0011,Crestview Enterprises,Sales,Travel,1939.44,ACH,INV-00014,Travel - Crestview Enterprises,Approved
+TXN-00487,2025-04-12,VEND-0040,Redline Supplies,Engineering,Cloud Infrastructure,5960.7,ACH,INV-00487,Cloud Infrastructure - Redline Supplies,Pending
+TXN-00587,2025-04-12,VEND-0028,Anchor Group,HR,Benefits Admin,4535.84,Cheque,INV-00587,Benefits Admin - Anchor Group,Approved
+TXN-00167,2025-04-13,VEND-0021,Silverline Traders,HR,Training,15608.47,Corporate Card,INV-00167,Training - Silverline Traders,Approved
+TXN-00533,2025-04-13,VEND-0009,Bluewave Partners,Engineering,Hardware,2601.41,ACH,INV-00533,Hardware - Bluewave Partners,Approved
+TXN-00625,2025-04-13,VEND-0010,Anchor Services,Sales,Travel,8024.09,ACH,INV-00625,Travel - Anchor Services,Approved
+TXN-00641,2025-04-14,VEND-0031,Anchor Services,Sales,Software Subscriptions,4518.28,ACH,INV-00641,Software Subscriptions - Anchor Services,Approved
+TXN-00648,2025-04-14,VEND-0035,Prime Enterprises,Sales,Software Subscriptions,12211.94,Cheque,INV-00648,Software Subscriptions - Prime Enterprises,Approved
+TXN-00651,2025-04-14,VEND-0028,Anchor Group,HR,Benefits Admin,4599.48,Cheque,INV-00651,Benefits Admin - Anchor Group,Approved
+TXN-00248,2025-04-15,VEND-0027,Silverline Enterprises,Finance,Audit Fees,2429.72,ACH,INV-00248,Audit Fees - Silverline Enterprises,Pending
+TXN-00650,2025-04-15,VEND-0023,Anchor Enterprises,Operations,Utilities,4775.35,Bank Transfer,INV-00650,Utilities - Anchor Enterprises,Approved
+TXN-00389,2025-04-15,VEND-0009,Bluewave Partners,Engineering,Contractors,3186.68,Bank Transfer,INV-00389,Contractors - Bluewave Partners,Approved
+TXN-00516,2025-04-17,VEND-0020,Northstar Industries,Finance,Software Subscriptions,1034.06,ACH,INV-00516,Software Subscriptions - Northstar Industries,Pending
+TXN-00476,2025-04-17,VEND-0022,ABC Traders,Sales,Commissions,3499.16,ACH,INV-00476,Commissions - ABC Traders,Approved
+TXN-00390,2025-04-17,VEND-0027,Silverline Enterprises,Sales,Commissions,2085.19,Cheque,INV-00390,Commissions - Silverline Enterprises,Approved
+TXN-00397,2025-04-17,VEND-0007,Crestview Enterprises,Finance,Audit Fees,18550.22,Corporate Card,INV-00397,Audit Fees - Crestview Enterprises,Pending
+TXN-00316,2025-04-17,VEND-0005,Bluewave Supplies,Marketing,Advertising,5104.34,ACH,INV-00316,Advertising - Bluewave Supplies,Approved
+TXN-00367,2025-04-18,VEND-0014,Vertex Traders,Finance,Audit Fees,997.12,Bank Transfer,INV-00367,Audit Fees - Vertex Traders,Pending
+TXN-00109,2025-04-19,VEND-0024,Crestview Partners,Finance,Software Subscriptions,2251.12,Corporate Card,INV-00109,Software Subscriptions - Crestview Partners,Approved
+TXN-00247,2025-04-20,VEND-0040,Redline Supplies,Engineering,Hardware,4390.78,Corporate Card,INV-00247,Hardware - Redline Supplies,Approved
+TXN-00621,2025-04-20,VEND-0037,Silverline Solutions,Engineering,Software Licenses,7596.05,ACH,INV-00621,Software Licenses - Silverline Solutions,Pending
+TXN-00172,2025-04-20,VEND-0024,Crestview Partners,Sales,Software Subscriptions,1849.74,ACH,INV-00172,Software Subscriptions - Crestview Partners,Approved
+TXN-00555,2025-04-21,VEND-0015,ABC Traders,Marketing,Software Subscriptions,1465.14,Corporate Card,INV-00555,Software Subscriptions - ABC Traders,Approved
+TXN-00298,2025-04-21,VEND-0017,Redline Partners,Engineering,Cloud Infrastructure,2668.34,Bank Transfer,INV-00298,Cloud Infrastructure - Redline Partners,Pending
+TXN-00599,2025-04-21,VEND-0017,Redline Partners,Marketing,Content,2076.2,Cheque,INV-00599,Content - Redline Partners,Approved
+TXN-00180,2025-04-21,VEND-0036,Redline Supplies,Sales,Client Entertainment,1588.62,Corporate Card,INV-00180,Client Entertainment - Redline Supplies,Approved
+TXN-00423,2025-04-22,VEND-0019,Prime Solutions,Marketing,Events,2544.5,Bank Transfer,INV-00423,Events - Prime Solutions,Approved
+TXN-00518,2025-04-22,VEND-0026,Northstar Enterprises,Finance,Software Subscriptions,6352.12,Cheque,INV-00518,Software Subscriptions - Northstar Enterprises,Approved
+TXN-00074,2025-04-22,VEND-0009,Bluewave Partners,Sales,Travel,2997.88,ACH,INV-00074,Travel - Bluewave Partners,Pending
+TXN-00614,2025-04-23,VEND-0023,Anchor Enterprises,HR,Benefits Admin,5030.02,ACH,INV-00614,Benefits Admin - Anchor Enterprises,Pending
+TXN-00657,2025-04-23,VEND-0024,Crestview Partners,Sales,Software Subscriptions,1878.25,ACH,INV-00657,Software Subscriptions - Crestview Partners,Approved
+TXN-00468,2025-04-23,VEND-0039,Northstar Supplies,Operations,Facilities,1640.45,Corporate Card,INV-00468,Facilities - Northstar Supplies,Approved
+TXN-00627,2025-04-24,VEND-0025,Redline Group,Engineering,Hardware,3767.83,Corporate Card,INV-00627,Hardware - Redline Group,Pending
+TXN-00082,2025-04-24,VEND-0013,Silverline Enterprises,Sales,Software Subscriptions,6963.81,ACH,INV-00082,Software Subscriptions - Silverline Enterprises,Pending
+TXN-00616,2025-04-25,VEND-0020,Northstar Industries,Operations,Facilities,1194.54,Cheque,INV-00616,Facilities - Northstar Industries,Approved
+TXN-00550,2025-04-25,VEND-0001,Prime Supplies,HR,Payroll Services,8445.73,ACH,INV-00550,Payroll Services - Prime Supplies,Approved
+TXN-00567,2025-04-25,VEND-0010,Anchor Services,HR,Payroll Services,9172.09,Bank Transfer,INV-00567,Payroll Services - Anchor Services,Approved
+TXN-00244,2025-04-26,VEND-0025,Redline Group,Operations,Logistics,2919.22,Cheque,INV-00244,Logistics - Redline Group,Approved
+TXN-00506,2025-04-26,VEND-0018,Vertex Traders,Marketing,Content,7148.63,Corporate Card,INV-00506,Content - Vertex Traders,Pending
+TXN-00637,2025-04-26,VEND-0043,Prime Solutions,Finance,Audit Fees,4765.25,ACH,INV-00637,Audit Fees - Prime Solutions,Pending
+TXN-00532,2025-04-26,VEND-0024,Crestview Partners,Marketing,Advertising,1444.12,Cheque,INV-00532,Advertising - Crestview Partners,Approved
+TXN-00064,2025-04-26,VEND-0026,Northstar Enterprises,Marketing,Software Subscriptions,3774.34,Corporate Card,INV-00064,Software Subscriptions - Northstar Enterprises,Approved
+TXN-00183,2025-04-27,VEND-0004,ABC Supplies,Marketing,Events,21125.88,ACH,INV-00183,Events - ABC Supplies,Approved
+TXN-00281,2025-04-27,VEND-0026,Northstar Enterprises,Marketing,Content,5244.72,Bank Transfer,INV-00281,Content - Northstar Enterprises,Pending
+TXN-00447,2025-04-28,VEND-0032,Crestview Industries,Engineering,Hardware,23995.48,ACH,INV-00447,Hardware - Crestview Industries,Approved
+TXN-00592,2025-04-28,VEND-0008,Anchor Partners,HR,Recruiting,10809.52,Bank Transfer,INV-00592,Recruiting - Anchor Partners,Approved
+TXN-00132,2025-04-28,VEND-0038,Summit Traders,Marketing,Advertising,1303.76,Bank Transfer,INV-00132,Advertising - Summit Traders,Approved
+TXN-00475,2025-04-28,VEND-0023,Anchor Enterprises,Sales,Commissions,3512.22,Cheque,INV-00475,Commissions - Anchor Enterprises,Approved
+TXN-00465,2025-04-28,VEND-0004,ABC Supplies,Marketing,Advertising,17872.77,Corporate Card,INV-00465,Advertising - ABC Supplies,Approved
+TXN-00656,2025-04-28,VEND-0025,Redline Group,Operations,Logistics,2975.55,Cheque,INV-00656,Logistics - Redline Group,Approved
+TXN-00562,2025-04-28,VEND-0014,Vertex Traders,Sales,Travel,1476.6,ACH,INV-00562,Travel - Vertex Traders,Approved
+TXN-00602,2025-04-29,VEND-0013,Silverline Enterprises,Sales,Travel,8432.33,Cheque,INV-00602,Travel - Silverline Enterprises,Approved
+TXN-00039,2025-04-30,VEND-0002,Bluewave Traders,Finance,Software Subscriptions,4546.19,Corporate Card,INV-00039,Software Subscriptions - Bluewave Traders,Approved
+TXN-00638,2025-04-30,VEND-0021,Silverline Traders,Engineering,Software Licenses,14354.42,Cheque,INV-00638,Software Licenses - Silverline Traders,Approved
+TXN-00162,2025-04-30,VEND-0026,Northstar Enterprises,Marketing,Advertising,5095.27,Cheque,INV-00162,Advertising - Northstar Enterprises,Approved
+TXN-00323,2025-04-30,VEND-0001,Prime Supplies,Engineering,Software Licenses,6411.59,ACH,INV-00323,Software Licenses - Prime Supplies,Approved
+TXN-00349,2025-05-01,VEND-0045,Crestview Group,HR,Payroll Services,1841.72,Corporate Card,INV-00349,Payroll Services - Crestview Group,Approved
+TXN-00087,2025-05-01,VEND-0002,Bluewave Traders,Marketing,Events,5220.85,Corporate Card,INV-00087,Events - Bluewave Traders,Pending
+TXN-00286,2025-05-01,VEND-0006,Silverline Group,Marketing,Advertising,4634.54,ACH,INV-00286,Advertising - Silverline Group,Approved
+TXN-00432,2025-05-01,VEND-0011,Crestview Enterprises,Engineering,Contractors,4326.56,Corporate Card,INV-00432,Contractors - Crestview Enterprises,Pending
+TXN-00583,2025-05-02,VEND-0005,Bluewave Supplies,Engineering,Cloud Infrastructure,3772.08,Bank Transfer,INV-00583,Cloud Infrastructure - Bluewave Supplies,Approved
+TXN-00006,2025-05-02,VEND-0026,Northstar Enterprises,Engineering,Contractors,3569.72,ACH,INV-00006,Contractors - Northstar Enterprises,Approved
+TXN-00382,2025-05-02,VEND-0036,Redline Supplies,HR,Training,2092.47,Bank Transfer,INV-00382,Training - Redline Supplies,Approved
+TXN-00148,2025-05-02,VEND-0027,Silverline Enterprises,Sales,Commissions,2490.79,ACH,INV-00148,Commissions - Silverline Enterprises,Approved
+TXN-00118,2025-05-03,VEND-0024,Crestview Partners,Operations,Facilities,1244.44,Bank Transfer,INV-00118,Facilities - Crestview Partners,Approved
+TXN-00477,2025-05-03,VEND-0029,Northstar Industries,HR,Benefits Admin,2364.92,Bank Transfer,INV-00477,Benefits Admin - Northstar Industries,Approved
+TXN-00405,2025-05-03,VEND-0005,Bluewave Supplies,Finance,Software Subscriptions,3871.21,Bank Transfer,INV-00405,Software Subscriptions - Bluewave Supplies,Approved
+TXN-00545,2025-05-03,VEND-0022,ABC Traders,Finance,Banking Fees,2799.95,ACH,INV-00545,Banking Fees - ABC Traders,Pending
+TXN-00344,2025-05-03,VEND-0002,Bluewave Traders,Operations,Office Supplies,18960.52,Corporate Card,INV-00344,Office Supplies - Bluewave Traders,Approved
+TXN-00115,2025-05-04,VEND-0004,ABC Supplies,Engineering,Cloud Infrastructure,13797.78,ACH,INV-00115,Cloud Infrastructure - ABC Supplies,Approved
+TXN-00500,2025-05-04,VEND-0031,Anchor Services,Operations,Utilities,3972.75,Corporate Card,INV-00500,Utilities - Anchor Services,Approved
+TXN-00276,2025-05-04,VEND-0044,Redline Solutions,Engineering,Software Licenses,3895.78,Bank Transfer,INV-00276,Software Licenses - Redline Solutions,Approved
+TXN-00235,2025-05-05,VEND-0017,Redline Partners,Engineering,Software Licenses,2182.58,Cheque,INV-00235,Software Licenses - Redline Partners,Pending
+TXN-00618,2025-05-06,VEND-0028,Anchor Group,Finance,Banking Fees,5071.49,Corporate Card,INV-00618,Banking Fees - Anchor Group,Approved
+TXN-00021,2025-05-06,VEND-0020,Northstar Industries,Sales,Software Subscriptions,1271.54,Corporate Card,INV-00021,Software Subscriptions - Northstar Industries,Approved
+TXN-00398,2025-05-06,VEND-0005,Bluewave Supplies,Engineering,Cloud Infrastructure,3631.31,ACH,INV-00398,Cloud Infrastructure - Bluewave Supplies,Approved
+TXN-00589,2025-05-07,VEND-0026,Northstar Enterprises,Operations,Facilities,6455.53,Bank Transfer,INV-00589,Facilities - Northstar Enterprises,Pending
+TXN-00352,2025-05-07,VEND-0024,Crestview Partners,Sales,Client Entertainment,1450.69,Cheque,INV-00352,Client Entertainment - Crestview Partners,Approved
+TXN-00577,2025-05-07,VEND-0035,Prime Enterprises,Marketing,Advertising,8086.31,Corporate Card,INV-00577,Advertising - Prime Enterprises,Approved
+TXN-00122,2025-05-07,VEND-0038,Summit Traders,Engineering,Software Licenses,780.82,Bank Transfer,INV-00122,Software Licenses - Summit Traders,Approved
+TXN-00317,2025-05-07,VEND-0022,ABC Traders,HR,Recruiting,2559.46,Cheque,INV-00317,Recruiting - ABC Traders,Approved
+TXN-00022,2025-05-07,VEND-0041,Summit Traders,Operations,Utilities,11947.33,ACH,INV-00022,Utilities - Summit Traders,Approved
+TXN-00142,2025-05-08,VEND-0030,Prime Solutions,Marketing,Events,4877.13,Corporate Card,INV-00142,Events - Prime Solutions,Approved
+TXN-00486,2025-05-08,VEND-0007,Crestview Enterprises,Engineering,Software Licenses,13885.51,Cheque,INV-00486,Software Licenses - Crestview Enterprises,Pending
+TXN-00466,2025-05-09,VEND-0009,Bluewave Partners,Finance,Consulting,2626.91,Bank Transfer,INV-00466,Consulting - Bluewave Partners,Approved
+TXN-00393,2025-05-09,VEND-0020,Northstar Industries,Engineering,Contractors,1720.55,Corporate Card,INV-00393,Contractors - Northstar Industries,Approved
+TXN-00301,2025-05-09,VEND-0011,Crestview Enterprises,Marketing,Content,4224.43,Bank Transfer,INV-00301,Content - Crestview Enterprises,Approved
+TXN-00130,2025-05-09,VEND-0022,ABC Traders,Operations,Office Supplies,4713.68,ACH,INV-00130,Office Supplies - ABC Traders,Pending
+TXN-00251,2025-05-10,VEND-0038,Summit Traders,Sales,Software Subscriptions,1101.23,Bank Transfer,INV-00251,Software Subscriptions - Summit Traders,Pending
+TXN-00556,2025-05-10,VEND-0033,Silverline Supplies,Operations,Utilities,2034.14,Bank Transfer,INV-00556,Utilities - Silverline Supplies,Approved
+TXN-00045,2025-05-11,VEND-0038,Summit Traders,Operations,Facilities,1323.14,Cheque,INV-00045,Facilities - Summit Traders,Approved
+TXN-00005,2025-05-11,VEND-0007,Crestview Enterprises,Marketing,Events,17902.24,ACH,INV-00005,Events - Crestview Enterprises,Approved
+TXN-00101,2025-05-11,VEND-0025,Redline Group,Operations,Logistics,4300.71,Cheque,INV-00101,Logistics - Redline Group,Approved
+TXN-00580,2025-05-11,VEND-0006,Silverline Group,HR,Training,4739.17,Bank Transfer,INV-00580,Training - Silverline Group,Pending
+TXN-00223,2025-05-11,VEND-0044,Redline Solutions,Operations,Facilities,4054.0,Corporate Card,INV-00223,Facilities - Redline Solutions,Approved
+TXN-00654,2025-05-12,VEND-0006,Silverline Group,HR,Training,4821.95,Bank Transfer,INV-00654,Training - Silverline Group,Approved
+TXN-00030,2025-05-12,VEND-0028,Anchor Group,Engineering,Hardware,4306.1,Corporate Card,INV-00030,Hardware - Anchor Group,Approved
+TXN-00026,2025-05-12,VEND-0035,Prime Enterprises,Engineering,Hardware,6544.81,Corporate Card,INV-00026,Hardware - Prime Enterprises,Pending
+TXN-00261,2025-05-12,VEND-0020,Northstar Industries,Finance,Consulting,1309.31,Cheque,INV-00261,Consulting - Northstar Industries,Approved
+TXN-00350,2025-05-12,VEND-0044,Redline Solutions,Marketing,Advertising,3095.41,ACH,INV-00350,Advertising - Redline Solutions,Approved
+TXN-00351,2025-05-13,VEND-0030,Prime Solutions,Finance,Consulting,1145.54,Bank Transfer,INV-00351,Consulting - Prime Solutions,Approved
+TXN-00300,2025-05-13,VEND-0041,Summit Traders,Finance,Software Subscriptions,9299.44,Cheque,INV-00300,Software Subscriptions - Summit Traders,Approved
+TXN-00376,2025-05-13,VEND-0043,Prime Solutions,Finance,Banking Fees,3817.49,Bank Transfer,INV-00376,Banking Fees - Prime Solutions,Approved
+TXN-00387,2025-05-13,VEND-0037,Silverline Solutions,Operations,Logistics,7622.97,Bank Transfer,INV-00387,Logistics - Silverline Solutions,Approved
+TXN-00494,2025-05-14,VEND-0033,Silverline Supplies,Sales,Software Subscriptions,5120.97,ACH,INV-00494,Software Subscriptions - Silverline Supplies,Approved
+TXN-00610,2025-05-14,VEND-0017,Redline Partners,Engineering,Software Licenses,2213.38,Cheque,INV-00610,Software Licenses - Redline Partners,Approved
+TXN-00240,2025-05-14,VEND-0020,Northstar Industries,Finance,Consulting,2698.99,Bank Transfer,INV-00240,Consulting - Northstar Industries,Pending
+TXN-00124,2025-05-14,VEND-0029,Northstar Industries,Finance,Consulting,1829.74,Bank Transfer,INV-00124,Consulting - Northstar Industries,Approved
+TXN-00395,2025-05-15,VEND-0005,Bluewave Supplies,Marketing,Content,2932.23,Corporate Card,INV-00395,Content - Bluewave Supplies,Approved
+TXN-00339,2025-05-16,VEND-0001,Prime Supplies,Finance,Consulting,4826.94,ACH,INV-00339,Consulting - Prime Supplies,Approved
+TXN-00537,2025-05-16,VEND-0021,Silverline Traders,Finance,Software Subscriptions,18852.89,Bank Transfer,INV-00537,Software Subscriptions - Silverline Traders,Pending
+TXN-00492,2025-05-16,VEND-0034,Silverline Enterprises,Finance,Software Subscriptions,896.86,Cheque,INV-00492,Software Subscriptions - Silverline Enterprises,Approved
+TXN-00461,2025-05-16,VEND-0039,Northstar Supplies,Finance,Software Subscriptions,1844.29,Bank Transfer,INV-00461,Software Subscriptions - Northstar Supplies,Approved
+TXN-00399,2025-05-17,VEND-0031,Anchor Services,Operations,Logistics,3012.07,Bank Transfer,INV-00399,Logistics - Anchor Services,Pending
+TXN-00111,2025-05-17,VEND-0004,ABC Supplies,Operations,Utilities,15882.9,Bank Transfer,INV-00111,Utilities - ABC Supplies,Approved
+TXN-00107,2025-05-18,VEND-0035,Prime Enterprises,Sales,Software Subscriptions,10627.92,Cheque,INV-00107,Software Subscriptions - Prime Enterprises,Approved
+TXN-00105,2025-05-18,VEND-0030,Prime Solutions,Sales,Client Entertainment,4940.39,Cheque,INV-00105,Client Entertainment - Prime Solutions,Pending
+TXN-00263,2025-05-19,VEND-0020,Northstar Industries,Engineering,Hardware,1591.37,ACH,INV-00263,Hardware - Northstar Industries,Approved
+TXN-00264,2025-05-19,VEND-0009,Bluewave Partners,Finance,Audit Fees,2838.95,ACH,INV-00264,Audit Fees - Bluewave Partners,Approved
+TXN-00325,2025-05-19,VEND-0043,Prime Solutions,Marketing,Advertising,1746.59,ACH,INV-00325,Advertising - Prime Solutions,Approved
+TXN-00582,2025-05-19,VEND-0033,Silverline Supplies,Finance,Audit Fees,5178.94,ACH,INV-00582,Audit Fees - Silverline Supplies,Approved
+TXN-00178,2025-05-19,VEND-0022,ABC Traders,Finance,Audit Fees,3793.27,ACH,INV-00178,Audit Fees - ABC Traders,Approved
+TXN-00652,2025-05-20,VEND-0033,Silverline Supplies,Finance,Audit Fees,5113.08,ACH,INV-00652,Audit Fees - Silverline Supplies,Approved
+TXN-00017,2025-05-20,VEND-0013,Silverline Enterprises,Marketing,Advertising,7762.59,Bank Transfer,INV-00017,Advertising - Silverline Enterprises,Approved
+TXN-00563,2025-05-20,VEND-0030,Prime Solutions,Marketing,Advertising,3960.77,Cheque,INV-00563,Advertising - Prime Solutions,Approved
+TXN-00108,2025-05-20,VEND-0033,Silverline Supplies,Finance,Software Subscriptions,4976.62,Bank Transfer,INV-00108,Software Subscriptions - Silverline Supplies,Approved
+TXN-00343,2025-05-21,VEND-0009,Bluewave Partners,Operations,Facilities,3808.15,Corporate Card,INV-00343,Facilities - Bluewave Partners,Pending
+TXN-00161,2025-05-21,VEND-0025,Redline Group,Operations,Office Supplies,3006.96,ACH,INV-00161,Office Supplies - Redline Group,Approved
+TXN-00444,2025-05-21,VEND-0012,Silverline Services,Finance,Consulting,2329.07,Corporate Card,INV-00444,Consulting - Silverline Services,Pending
+TXN-00611,2025-05-21,VEND-0027,Silverline Enterprises,Sales,Software Subscriptions,1597.04,ACH,INV-00611,Software Subscriptions - Silverline Enterprises,Pending
+TXN-00595,2025-05-21,VEND-0040,Redline Supplies,Engineering,Contractors,5295.8,Cheque,INV-00595,Contractors - Redline Supplies,Approved
+TXN-00155,2025-05-21,VEND-0036,Redline Supplies,Sales,Travel,1836.27,ACH,INV-00155,Travel - Redline Supplies,Approved
+TXN-00139,2025-05-22,VEND-0001,Prime Supplies,Operations,Logistics,6643.98,Bank Transfer,INV-00139,Logistics - Prime Supplies,Approved
+TXN-00255,2025-05-22,VEND-0032,Crestview Industries,HR,Training,22824.19,ACH,INV-00255,Training - Crestview Industries,Approved
+TXN-00551,2025-05-22,VEND-0041,Summit Traders,Sales,Software Subscriptions,8321.85,Cheque,INV-00551,Software Subscriptions - Summit Traders,Pending
+TXN-00644,2025-05-22,VEND-0017,Redline Partners,Operations,Utilities,2478.86,Bank Transfer,INV-00644,Utilities - Redline Partners,Approved
+TXN-00542,2025-05-22,VEND-0034,Silverline Enterprises,HR,Training,2136.37,Cheque,INV-00542,Training - Silverline Enterprises,Pending
+TXN-00097,2025-05-22,VEND-0034,Silverline Enterprises,Finance,Banking Fees,2519.78,Corporate Card,INV-00097,Banking Fees - Silverline Enterprises,Approved
+TXN-00598,2025-05-23,VEND-0014,Vertex Traders,Operations,Logistics,837.1,Bank Transfer,INV-00598,Logistics - Vertex Traders,Approved
+TXN-00360,2025-05-23,VEND-0044,Redline Solutions,HR,Training,2565.18,Cheque,INV-00360,Training - Redline Solutions,Approved
+TXN-00165,2025-05-23,VEND-0022,ABC Traders,Marketing,Advertising,4640.26,Bank Transfer,INV-00165,Advertising - ABC Traders,Pending
+TXN-00363,2025-05-24,VEND-0011,Crestview Enterprises,Marketing,Content,2905.93,Bank Transfer,INV-00363,Content - Crestview Enterprises,Approved
+TXN-00643,2025-05-24,VEND-0011,Crestview Enterprises,Sales,Travel,3224.37,Corporate Card,INV-00643,Travel - Crestview Enterprises,Approved
+TXN-00505,2025-05-24,VEND-0023,Anchor Enterprises,Finance,Consulting,5025.11,ACH,INV-00505,Consulting - Anchor Enterprises,Approved
+TXN-00137,2025-05-24,VEND-0042,Crestview Services,Marketing,Events,5591.44,ACH,INV-00137,Events - Crestview Services,Approved
+TXN-00491,2025-05-24,VEND-0009,Bluewave Partners,HR,Payroll Services,2780.35,ACH,INV-00491,Payroll Services - Bluewave Partners,Pending
+TXN-00603,2025-05-25,VEND-0030,Prime Solutions,Finance,Audit Fees,3400.7,Bank Transfer,INV-00603,Audit Fees - Prime Solutions,Approved
+TXN-00666,2025-05-25,VEND-0009,Bluewave Partners,HR,Payroll Services,2780.35,ACH,INV-00666,Payroll Services - Bluewave Partners,Approved
+TXN-00033,2025-05-25,VEND-0021,Silverline Traders,Marketing,Advertising,13610.1,Corporate Card,INV-00033,Advertising - Silverline Traders,Approved
+TXN-00262,2025-05-25,VEND-0020,Northstar Industries,Finance,Software Subscriptions,2065.01,Bank Transfer,INV-00262,Software Subscriptions - Northstar Industries,Approved
+TXN-00665,2025-05-26,VEND-0009,Bluewave Partners,HR,Payroll Services,2780.35,ACH,INV-00665,Payroll Services - Bluewave Partners,Approved
+TXN-00662,2025-05-26,VEND-0023,Anchor Enterprises,Finance,Consulting,5025.11,ACH,INV-00662,Consulting - Anchor Enterprises,Approved
+TXN-00002,2025-05-26,VEND-0029,Northstar Industries,Engineering,Cloud Infrastructure,4007.54,Bank Transfer,INV-00002,Cloud Infrastructure - Northstar Industries,Approved
+TXN-00225,2025-05-26,VEND-0015,ABC Traders,Operations,Logistics,1124.93,Cheque,INV-00225,Logistics - ABC Traders,Approved
+TXN-00099,2025-05-26,VEND-0008,Anchor Partners,HR,Payroll Services,7288.82,Bank Transfer,INV-00099,Payroll Services - Anchor Partners,Pending
+TXN-00182,2025-05-26,VEND-0034,Silverline Enterprises,Sales,Software Subscriptions,1066.44,Bank Transfer,INV-00182,Software Subscriptions - Silverline Enterprises,Pending
+TXN-00259,2025-05-26,VEND-0030,Prime Solutions,Sales,Commissions,4573.62,Bank Transfer,INV-00259,Commissions - Prime Solutions,Approved
+TXN-00150,2025-05-27,VEND-0030,Prime Solutions,Operations,Office Supplies,5247.66,Cheque,INV-00150,Office Supplies - Prime Solutions,Approved
+TXN-00421,2025-05-28,VEND-0019,Prime Solutions,Engineering,Contractors,2328.61,Corporate Card,INV-00421,Contractors - Prime Solutions,Pending
+TXN-00342,2025-05-28,VEND-0033,Silverline Supplies,Finance,Banking Fees,5713.63,ACH,INV-00342,Banking Fees - Silverline Supplies,Approved
+TXN-00152,2025-05-28,VEND-0028,Anchor Group,Sales,Commissions,6078.87,Cheque,INV-00152,Commissions - Anchor Group,Approved
+TXN-00413,2025-05-28,VEND-0037,Silverline Solutions,Marketing,Software Subscriptions,6459.04,Bank Transfer,INV-00413,Software Subscriptions - Silverline Solutions,Approved
+TXN-00048,2025-05-28,VEND-0045,Crestview Group,HR,Payroll Services,1691.7,Cheque,INV-00048,Payroll Services - Crestview Group,Pending
+TXN-00232,2025-05-28,VEND-0010,Anchor Services,Engineering,Cloud Infrastructure,6388.97,ACH,INV-00232,Cloud Infrastructure - Anchor Services,Approved
+TXN-00661,2025-05-28,VEND-0023,Anchor Enterprises,Finance,Consulting,5025.11,ACH,INV-00661,Consulting - Anchor Enterprises,Approved
+TXN-00522,2025-05-29,VEND-0020,Northstar Industries,HR,Recruiting,725.49,Cheque,INV-00522,Recruiting - Northstar Industries,Approved
+TXN-00038,2025-05-30,VEND-0026,Northstar Enterprises,Finance,Audit Fees,5843.32,ACH,INV-00038,Audit Fees - Northstar Enterprises,Approved
+TXN-00459,2025-05-30,VEND-0018,Vertex Traders,HR,Benefits Admin,6179.84,Cheque,INV-00459,Benefits Admin - Vertex Traders,Approved
+TXN-00617,2025-05-31,VEND-0013,Silverline Enterprises,Finance,Software Subscriptions,5059.84,ACH,INV-00617,Software Subscriptions - Silverline Enterprises,Approved
+TXN-00037,2025-05-31,VEND-0001,Prime Supplies,Operations,Facilities,7956.35,Corporate Card,INV-00037,Facilities - Prime Supplies,Approved
+TXN-00529,2025-05-31,VEND-0043,Prime Solutions,Sales,Travel,5333.08,Bank Transfer,INV-00529,Travel - Prime Solutions,Pending
+TXN-00293,2025-05-31,VEND-0016,Bluewave Services,Operations,Facilities,2241.67,Bank Transfer,INV-00293,Facilities - Bluewave Services,Pending
+TXN-00206,2025-06-01,VEND-0041,Summit Traders,Sales,Commissions,5302.7,Bank Transfer,INV-00206,Commissions - Summit Traders,Pending
+TXN-00312,2025-06-01,VEND-0033,Silverline Supplies,Finance,Banking Fees,6083.17,ACH,INV-00312,Banking Fees - Silverline Supplies,Approved
+TXN-00480,2025-06-01,VEND-0039,Northstar Supplies,Operations,Office Supplies,1522.98,Cheque,INV-00480,Office Supplies - Northstar Supplies,Approved
+TXN-00322,2025-06-01,VEND-0029,Northstar Industries,Engineering,Software Licenses,2412.48,Corporate Card,INV-00322,Software Licenses - Northstar Industries,Approved
+TXN-00196,2025-06-01,VEND-0030,Prime Solutions,Sales,Client Entertainment,5159.71,Bank Transfer,INV-00196,Client Entertainment - Prime Solutions,Approved
+TXN-00258,2025-06-02,VEND-0003,Silverline Services,Sales,Client Entertainment,7415.84,Cheque,INV-00258,Client Entertainment - Silverline Services,Approved
+TXN-00274,2025-06-03,VEND-0020,Northstar Industries,Sales,Client Entertainment,1562.04,ACH,INV-00274,Client Entertainment - Northstar Industries,Pending
+TXN-00402,2025-06-03,VEND-0011,Crestview Enterprises,Finance,Banking Fees,1469.08,Corporate Card,INV-00402,Banking Fees - Crestview Enterprises,Approved
+TXN-00454,2025-06-04,VEND-0012,Silverline Services,HR,Payroll Services,3378.37,Bank Transfer,INV-00454,Payroll Services - Silverline Services,Approved
+TXN-00557,2025-06-04,VEND-0043,Prime Solutions,Operations,Facilities,4150.98,Corporate Card,INV-00557,Facilities - Prime Solutions,Approved
+TXN-00649,2025-06-05,VEND-0001,Prime Supplies,HR,Training,8557.72,Cheque,INV-00649,Training - Prime Supplies,Approved
+TXN-00416,2025-06-05,VEND-0031,Anchor Services,Sales,Commissions,3072.12,ACH,INV-00416,Commissions - Anchor Services,Approved
+TXN-00495,2025-06-05,VEND-0024,Crestview Partners,Engineering,Hardware,1284.19,Cheque,INV-00495,Hardware - Crestview Partners,Approved
+TXN-00042,2025-06-06,VEND-0042,Crestview Services,Finance,Audit Fees,3893.23,Bank Transfer,INV-00042,Audit Fees - Crestview Services,Approved
+TXN-00173,2025-06-06,VEND-0040,Redline Supplies,Marketing,Events,5033.86,Cheque,INV-00173,Events - Redline Supplies,Approved
+TXN-00211,2025-06-06,VEND-0032,Crestview Industries,Operations,Logistics,22260.0,Cheque,INV-00211,Logistics - Crestview Industries,Pending
+TXN-00049,2025-06-07,VEND-0026,Northstar Enterprises,HR,Recruiting,6667.09,Corporate Card,INV-00049,Recruiting - Northstar Enterprises,Pending
+TXN-00573,2025-06-07,VEND-0024,Crestview Partners,Engineering,Contractors,1738.93,Bank Transfer,INV-00573,Contractors - Crestview Partners,Approved
+TXN-00434,2025-06-08,VEND-0023,Anchor Enterprises,Sales,Client Entertainment,5822.25,Corporate Card,INV-00434,Client Entertainment - Anchor Enterprises,Pending
+TXN-00078,2025-06-08,VEND-0003,Silverline Services,Sales,Travel,6959.75,Cheque,INV-00078,Travel - Silverline Services,Approved
+TXN-00076,2025-06-08,VEND-0039,Northstar Supplies,Operations,Logistics,2211.88,ACH,INV-00076,Logistics - Northstar Supplies,Approved
+TXN-00575,2025-06-08,VEND-0025,Redline Group,Operations,Utilities,3477.77,ACH,INV-00575,Utilities - Redline Group,Pending
+TXN-00633,2025-06-08,VEND-0008,Anchor Partners,HR,Benefits Admin,13398.59,Cheque,INV-00633,Benefits Admin - Anchor Partners,Approved
+TXN-00572,2025-06-09,VEND-0030,Prime Solutions,HR,Training,4930.96,Cheque,INV-00572,Training - Prime Solutions,Approved
+TXN-00080,2025-06-09,VEND-0018,Vertex Traders,HR,Recruiting,7642.68,Bank Transfer,INV-00080,Recruiting - Vertex Traders,Approved
+TXN-00441,2025-06-10,VEND-0044,Redline Solutions,Finance,Software Subscriptions,4254.6,Corporate Card,INV-00441,Software Subscriptions - Redline Solutions,Approved
+TXN-00280,2025-06-10,VEND-0023,Anchor Enterprises,Sales,Travel,3304.95,Cheque,INV-00280,Travel - Anchor Enterprises,Approved
+TXN-00377,2025-06-10,VEND-0020,Northstar Industries,HR,Payroll Services,2093.73,Cheque,INV-00377,Payroll Services - Northstar Industries,Approved
+TXN-00597,2025-06-11,VEND-0027,Silverline Enterprises,HR,Recruiting,1914.46,Bank Transfer,INV-00597,Recruiting - Silverline Enterprises,Approved
+TXN-00353,2025-06-11,VEND-0028,Anchor Group,Operations,Facilities,6453.43,Bank Transfer,INV-00353,Facilities - Anchor Group,Approved
+TXN-00055,2025-06-12,VEND-0001,Prime Supplies,Engineering,Hardware,5536.44,Bank Transfer,INV-00055,Hardware - Prime Supplies,Pending
+TXN-00547,2025-06-12,VEND-0030,Prime Solutions,Marketing,Advertising,2849.86,Cheque,INV-00547,Advertising - Prime Solutions,Approved
+TXN-00460,2025-06-12,VEND-0017,Redline Partners,Marketing,Content,2173.61,ACH,INV-00460,Content - Redline Partners,Approved
+TXN-00073,2025-06-13,VEND-0009,Bluewave Partners,Marketing,Software Subscriptions,4553.84,Cheque,INV-00073,Software Subscriptions - Bluewave Partners,Approved
+TXN-00136,2025-06-13,VEND-0003,Silverline Services,Sales,Software Subscriptions,4455.65,Cheque,INV-00136,Software Subscriptions - Silverline Services,Pending
+TXN-00013,2025-06-13,VEND-0035,Prime Enterprises,Engineering,Software Licenses,9110.93,ACH,INV-00013,Software Licenses - Prime Enterprises,Pending
+TXN-00431,2025-06-13,VEND-0011,Crestview Enterprises,Operations,Office Supplies,3619.72,Corporate Card,INV-00431,Office Supplies - Crestview Enterprises,Pending
+TXN-00428,2025-06-14,VEND-0006,Silverline Group,Engineering,Software Licenses,2605.48,Cheque,INV-00428,Software Licenses - Silverline Group,Pending
+TXN-00368,2025-06-14,VEND-0019,Prime Solutions,Sales,Client Entertainment,2060.58,Corporate Card,INV-00368,Client Entertainment - Prime Solutions,Pending
+TXN-00484,2025-06-14,VEND-0025,Redline Group,Marketing,Content,2358.41,ACH,INV-00484,Content - Redline Group,Approved
+TXN-00404,2025-06-15,VEND-0032,Crestview Industries,HR,Benefits Admin,18232.05,ACH,INV-00404,Benefits Admin - Crestview Industries,Approved
+TXN-00083,2025-06-16,VEND-0002,Bluewave Traders,Sales,Software Subscriptions,5144.82,Cheque,INV-00083,Software Subscriptions - Bluewave Traders,Approved
+TXN-00526,2025-06-16,VEND-0043,Prime Solutions,Engineering,Contractors,3864.67,Corporate Card,INV-00526,Contractors - Prime Solutions,Approved
+TXN-00579,2025-06-17,VEND-0006,Silverline Group,HR,Payroll Services,3111.47,ACH,INV-00579,Payroll Services - Silverline Group,Approved
+TXN-00536,2025-06-17,VEND-0041,Summit Traders,Sales,Client Entertainment,10232.53,Bank Transfer,INV-00536,Client Entertainment - Summit Traders,Approved
+TXN-00106,2025-06-17,VEND-0005,Bluewave Supplies,HR,Benefits Admin,4012.28,Cheque,INV-00106,Benefits Admin - Bluewave Supplies,Pending
+TXN-00396,2025-06-18,VEND-0013,Silverline Enterprises,Finance,Consulting,5724.02,Cheque,INV-00396,Consulting - Silverline Enterprises,Approved
+TXN-00215,2025-06-18,VEND-0007,Crestview Enterprises,Marketing,Content,56971.7,Cheque,INV-00215,Content - Crestview Enterprises,Approved
+TXN-00481,2025-06-19,VEND-0010,Anchor Services,Marketing,Events,8733.55,ACH,INV-00481,Events - Anchor Services,Approved
+TXN-00036,2025-06-19,VEND-0010,Anchor Services,Operations,Utilities,7128.41,Corporate Card,INV-00036,Utilities - Anchor Services,Approved
+TXN-00131,2025-06-19,VEND-0032,Crestview Industries,HR,Recruiting,16128.16,Cheque,INV-00131,Recruiting - Crestview Industries,Approved
+TXN-00217,2025-06-19,VEND-0034,Silverline Enterprises,Marketing,Advertising,2373.24,Bank Transfer,INV-00217,Advertising - Silverline Enterprises,Approved
+TXN-00236,2025-06-19,VEND-0018,Vertex Traders,Marketing,Software Subscriptions,10598.56,Corporate Card,INV-00236,Software Subscriptions - Vertex Traders,Approved
+TXN-00213,2025-06-19,VEND-0025,Redline Group,Finance,Software Subscriptions,2153.73,ACH,INV-00213,Software Subscriptions - Redline Group,Approved
+TXN-00242,2025-06-20,VEND-0043,Prime Solutions,Operations,Facilities,4303.66,Bank Transfer,INV-00242,Facilities - Prime Solutions,Approved
+TXN-00163,2025-06-20,VEND-0014,Vertex Traders,Finance,Audit Fees,751.63,Bank Transfer,INV-00163,Audit Fees - Vertex Traders,Approved
+TXN-00464,2025-06-20,VEND-0020,Northstar Industries,Marketing,Software Subscriptions,2556.44,Cheque,INV-00464,Software Subscriptions - Northstar Industries,Approved
+TXN-00238,2025-06-20,VEND-0017,Redline Partners,Finance,Audit Fees,2236.28,Bank Transfer,INV-00238,Audit Fees - Redline Partners,Pending
+TXN-00129,2025-06-21,VEND-0039,Northstar Supplies,HR,Benefits Admin,1198.05,Bank Transfer,INV-00129,Benefits Admin - Northstar Supplies,Pending
+TXN-00538,2025-06-21,VEND-0044,Redline Solutions,Operations,Facilities,4189.27,Bank Transfer,INV-00538,Facilities - Redline Solutions,Approved
+TXN-00425,2025-06-21,VEND-0013,Silverline Enterprises,Marketing,Software Subscriptions,3934.03,Corporate Card,INV-00425,Software Subscriptions - Silverline Enterprises,Approved
+TXN-00498,2025-06-21,VEND-0030,Prime Solutions,Sales,Client Entertainment,2836.03,Cheque,INV-00498,Client Entertainment - Prime Solutions,Approved
+TXN-00302,2025-06-21,VEND-0043,Prime Solutions,Sales,Commissions,2876.92,ACH,INV-00302,Commissions - Prime Solutions,Pending
+TXN-00001,2025-06-21,VEND-0040,Redline Supplies,Finance,Banking Fees,4717.74,ACH,INV-00001,Banking Fees - Redline Supplies,Approved
+TXN-00340,2025-06-21,VEND-0002,Bluewave Traders,Marketing,Events,5978.52,ACH,INV-00340,Events - Bluewave Traders,Pending
+TXN-00271,2025-06-21,VEND-0010,Anchor Services,Engineering,Software Licenses,7971.71,Bank Transfer,INV-00271,Software Licenses - Anchor Services,Pending
+TXN-00272,2025-06-22,VEND-0018,Vertex Traders,Finance,Software Subscriptions,27506.73,Cheque,INV-00272,Software Subscriptions - Vertex Traders,Approved
+TXN-00164,2025-06-22,VEND-0038,Summit Traders,Finance,Audit Fees,932.57,Corporate Card,INV-00164,Audit Fees - Summit Traders,Approved
+TXN-00034,2025-06-22,VEND-0015,ABC Traders,Operations,Utilities,1166.75,ACH,INV-00034,Utilities - ABC Traders,Approved
+TXN-00067,2025-06-22,VEND-0041,Summit Traders,HR,Benefits Admin,10529.1,ACH,INV-00067,Benefits Admin - Summit Traders,Approved
+TXN-00379,2025-06-22,VEND-0032,Crestview Industries,Marketing,Content,22671.63,Cheque,INV-00379,Content - Crestview Industries,Approved
+TXN-00501,2025-06-23,VEND-0019,Prime Solutions,Sales,Travel,2702.88,ACH,INV-00501,Travel - Prime Solutions,Approved
+TXN-00279,2025-06-24,VEND-0044,Redline Solutions,Marketing,Events,3154.32,Cheque,INV-00279,Events - Redline Solutions,Approved
+TXN-00319,2025-06-24,VEND-0042,Crestview Services,Engineering,Cloud Infrastructure,2751.61,Corporate Card,INV-00319,Cloud Infrastructure - Crestview Services,Approved
+TXN-00517,2025-06-24,VEND-0044,Redline Solutions,Finance,Software Subscriptions,2980.36,ACH,INV-00517,Software Subscriptions - Redline Solutions,Pending
+TXN-00278,2025-06-24,VEND-0036,Redline Supplies,Engineering,Hardware,2256.33,Corporate Card,INV-00278,Hardware - Redline Supplies,Approved
+TXN-00098,2025-06-24,VEND-0041,Summit Traders,Marketing,Content,8128.3,Corporate Card,INV-00098,Content - Summit Traders,Approved
+TXN-00435,2025-06-24,VEND-0040,Redline Supplies,Operations,Facilities,7147.33,Cheque,INV-00435,Facilities - Redline Supplies,Approved
+TXN-00015,2025-06-25,VEND-0011,Crestview Enterprises,Sales,Software Subscriptions,4540.5,Cheque,INV-00015,Software Subscriptions - Crestview Enterprises,Pending
+TXN-00153,2025-06-25,VEND-0018,Vertex Traders,HR,Payroll Services,6723.4,Cheque,INV-00153,Payroll Services - Vertex Traders,Approved
+TXN-00214,2025-06-25,VEND-0013,Silverline Enterprises,Sales,Software Subscriptions,6458.32,ACH,INV-00214,Software Subscriptions - Silverline Enterprises,Pending
+TXN-00192,2025-06-25,VEND-0016,Bluewave Services,Engineering,Contractors,3925.88,Cheque,INV-00192,Contractors - Bluewave Services,Approved
+TXN-00061,2025-06-25,VEND-0029,Northstar Industries,Sales,Travel,2411.27,ACH,INV-00061,Travel - Northstar Industries,Approved
+TXN-00185,2025-06-25,VEND-0042,Crestview Services,HR,Recruiting,5456.13,Cheque,INV-00185,Recruiting - Crestview Services,Approved
+TXN-00392,2025-06-25,VEND-0026,Northstar Enterprises,Operations,Logistics,5329.02,ACH,INV-00392,Logistics - Northstar Enterprises,Approved
+TXN-00169,2025-06-26,VEND-0032,Crestview Industries,Finance,Banking Fees,17170.67,Cheque,INV-00169,Banking Fees - Crestview Industries,Approved
+TXN-00371,2025-06-26,VEND-0008,Anchor Partners,Operations,Utilities,11913.94,Cheque,INV-00371,Utilities - Anchor Partners,Approved
+TXN-00449,2025-06-26,VEND-0001,Prime Supplies,Sales,Commissions,5273.44,Corporate Card,INV-00449,Commissions - Prime Supplies,Approved
+TXN-00549,2025-06-26,VEND-0045,Crestview Group,Finance,Audit Fees,1644.58,Cheque,INV-00549,Audit Fees - Crestview Group,Approved
+TXN-00023,2025-06-26,VEND-0019,Prime Solutions,Finance,Banking Fees,2976.32,Cheque,INV-00023,Banking Fees - Prime Solutions,Approved
+TXN-00024,2025-06-26,VEND-0031,Anchor Services,Marketing,Advertising,2430.3,Bank Transfer,INV-00024,Advertising - Anchor Services,Approved
+TXN-00394,2025-06-26,VEND-0043,Prime Solutions,Operations,Utilities,3743.18,Cheque,INV-00394,Utilities - Prime Solutions,Approved
+TXN-00043,2025-06-26,VEND-0045,Crestview Group,Engineering,Software Licenses,1742.85,Cheque,INV-00043,Software Licenses - Crestview Group,Pending
+TXN-00252,2025-06-27,VEND-0029,Northstar Industries,Marketing,Content,2781.78,ACH,INV-00252,Content - Northstar Industries,Approved
+TXN-00254,2025-06-27,VEND-0038,Summit Traders,HR,Payroll Services,670.88,Bank Transfer,INV-00254,Payroll Services - Summit Traders,Pending
+TXN-00515,2025-06-27,VEND-0033,Silverline Supplies,Operations,Office Supplies,4049.83,Corporate Card,INV-00515,Office Supplies - Silverline Supplies,Approved
+TXN-00081,2025-06-27,VEND-0019,Prime Solutions,Sales,Client Entertainment,3153.57,Corporate Card,INV-00081,Client Entertainment - Prime Solutions,Approved
+TXN-00433,2025-06-27,VEND-0016,Bluewave Services,Finance,Software Subscriptions,2790.9,Bank Transfer,INV-00433,Software Subscriptions - Bluewave Services,Approved
+TXN-00600,2025-06-27,VEND-0045,Crestview Group,Operations,Utilities,1190.89,Cheque,INV-00600,Utilities - Crestview Group,Approved
+TXN-00443,2025-06-28,VEND-0020,Northstar Industries,Operations,Office Supplies,736.63,Bank Transfer,INV-00443,Office Supplies - Northstar Industries,Approved
+TXN-00442,2025-06-28,VEND-0045,Crestview Group,Operations,Office Supplies,1416.87,Cheque,INV-00442,Office Supplies - Crestview Group,Pending
+TXN-00088,2025-06-28,VEND-0017,Redline Partners,Marketing,Events,1859.29,Cheque,INV-00088,Events - Redline Partners,Approved
+TXN-00079,2025-06-28,VEND-0021,Silverline Traders,Sales,Client Entertainment,15936.33,Corporate Card,INV-00079,Client Entertainment - Silverline Traders,Approved
+TXN-00324,2025-06-28,VEND-0011,Crestview Enterprises,HR,Benefits Admin,3604.0,Corporate Card,INV-00324,Benefits Admin - Crestview Enterprises,Approved
+TXN-00613,2025-06-28,VEND-0021,Silverline Traders,Engineering,Contractors,15046.5,Cheque,INV-00613,Contractors - Silverline Traders,Pending
+TXN-00114,2025-06-29,VEND-0027,Silverline Enterprises,Marketing,Content,2029.93,ACH,INV-00114,Content - Silverline Enterprises,Pending
+TXN-00576,2025-06-29,VEND-0039,Northstar Supplies,Finance,Software Subscriptions,1780.52,Bank Transfer,INV-00576,Software Subscriptions - Northstar Supplies,Approved
+TXN-00414,2025-06-29,VEND-0037,Silverline Solutions,Marketing,Advertising,7187.6,Bank Transfer,INV-00414,Advertising - Silverline Solutions,Pending
+TXN-00632,2025-07-01,VEND-0028,Anchor Group,Finance,Banking Fees,8780.44,ACH,INV-00632,Banking Fees - Anchor Group,Pending
+TXN-00493,2025-07-01,VEND-0010,Anchor Services,Finance,Software Subscriptions,5462.59,Cheque,INV-00493,Software Subscriptions - Anchor Services,Approved
+TXN-00375,2025-07-01,VEND-0036,Redline Supplies,Sales,Software Subscriptions,1855.53,Cheque,INV-00375,Software Subscriptions - Redline Supplies,Approved
+TXN-00438,2025-07-01,VEND-0028,Anchor Group,HR,Training,7959.2,Corporate Card,INV-00438,Training - Anchor Group,Approved
+TXN-00208,2025-07-01,VEND-0004,ABC Supplies,Marketing,Advertising,15118.58,ACH,INV-00208,Advertising - ABC Supplies,Pending
+TXN-00440,2025-07-01,VEND-0009,Bluewave Partners,Finance,Audit Fees,4141.22,Corporate Card,INV-00440,Audit Fees - Bluewave Partners,Approved
+TXN-00077,2025-07-03,VEND-0027,Silverline Enterprises,Finance,Software Subscriptions,1252.74,Corporate Card,INV-00077,Software Subscriptions - Silverline Enterprises,Pending
+TXN-00100,2025-07-03,VEND-0026,Northstar Enterprises,Operations,Utilities,5483.38,Corporate Card,INV-00100,Utilities - Northstar Enterprises,Pending
+TXN-00548,2025-07-03,VEND-0028,Anchor Group,Operations,Office Supplies,6519.66,Cheque,INV-00548,Office Supplies - Anchor Group,Approved
+TXN-00267,2025-07-03,VEND-0019,Prime Solutions,Engineering,Hardware,2598.64,Corporate Card,INV-00267,Hardware - Prime Solutions,Approved
+TXN-00527,2025-07-03,VEND-0013,Silverline Enterprises,Sales,Client Entertainment,5886.03,Corporate Card,INV-00527,Client Entertainment - Silverline Enterprises,Approved
+TXN-00231,2025-07-03,VEND-0042,Crestview Services,Finance,Consulting,4007.07,ACH,INV-00231,Consulting - Crestview Services,Pending
+TXN-00605,2025-07-04,VEND-0010,Anchor Services,Engineering,Contractors,7290.52,Bank Transfer,INV-00605,Contractors - Anchor Services,Approved
+TXN-00194,2025-07-04,VEND-0003,Silverline Services,Finance,Audit Fees,5439.07,ACH,INV-00194,Audit Fees - Silverline Services,Approved
+TXN-00116,2025-07-04,VEND-0037,Silverline Solutions,Marketing,Software Subscriptions,4883.82,Bank Transfer,INV-00116,Software Subscriptions - Silverline Solutions,Approved
+TXN-00168,2025-07-06,VEND-0015,ABC Traders,Sales,Client Entertainment,1331.56,Corporate Card,INV-00168,Client Entertainment - ABC Traders,Approved
+TXN-00157,2025-07-07,VEND-0043,Prime Solutions,Marketing,Events,4921.01,Cheque,INV-00157,Events - Prime Solutions,Approved
+TXN-00237,2025-07-07,VEND-0035,Prime Enterprises,HR,Training,11407.15,Cheque,INV-00237,Training - Prime Enterprises,Approved
+TXN-00426,2025-07-07,VEND-0032,Crestview Industries,Marketing,Events,31347.52,Cheque,INV-00426,Events - Crestview Industries,Approved
+TXN-00275,2025-07-07,VEND-0008,Anchor Partners,Operations,Office Supplies,15262.89,ACH,INV-00275,Office Supplies - Anchor Partners,Approved
+TXN-00052,2025-07-08,VEND-0030,Prime Solutions,Marketing,Content,4317.0,Cheque,INV-00052,Content - Prime Solutions,Approved
+TXN-00578,2025-07-08,VEND-0023,Anchor Enterprises,Marketing,Software Subscriptions,4066.05,Cheque,INV-00578,Software Subscriptions - Anchor Enterprises,Approved
+TXN-00031,2025-07-08,VEND-0019,Prime Solutions,Engineering,Hardware,2674.71,ACH,INV-00031,Hardware - Prime Solutions,Pending
+TXN-00409,2025-07-09,VEND-0018,Vertex Traders,Sales,Travel,7833.26,ACH,INV-00409,Travel - Vertex Traders,Approved
+TXN-00147,2025-07-09,VEND-0035,Prime Enterprises,Finance,Banking Fees,10066.79,Cheque,INV-00147,Banking Fees - Prime Enterprises,Pending
+TXN-00057,2025-07-09,VEND-0040,Redline Supplies,Sales,Client Entertainment,4816.24,ACH,INV-00057,Client Entertainment - Redline Supplies,Approved
+TXN-00347,2025-07-10,VEND-0013,Silverline Enterprises,Engineering,Contractors,6607.79,ACH,INV-00347,Contractors - Silverline Enterprises,Pending
+TXN-00410,2025-07-10,VEND-0021,Silverline Traders,Sales,Client Entertainment,13972.14,ACH,INV-00410,Client Entertainment - Silverline Traders,Pending
+TXN-00330,2025-07-11,VEND-0018,Vertex Traders,Marketing,Advertising,9022.31,Corporate Card,INV-00330,Advertising - Vertex Traders,Pending
+TXN-00359,2025-07-11,VEND-0015,ABC Traders,Operations,Office Supplies,758.86,ACH,INV-00359,Office Supplies - ABC Traders,Approved
+TXN-00560,2025-07-11,VEND-0017,Redline Partners,Engineering,Software Licenses,2128.14,ACH,INV-00560,Software Licenses - Redline Partners,Approved
+TXN-00514,2025-07-11,VEND-0006,Silverline Group,Finance,Software Subscriptions,2806.2,Corporate Card,INV-00514,Software Subscriptions - Silverline Group,Approved
+TXN-00134,2025-07-11,VEND-0001,Prime Supplies,Engineering,Contractors,6405.86,ACH,INV-00134,Contractors - Prime Supplies,Approved
+TXN-00119,2025-07-12,VEND-0045,Crestview Group,Sales,Client Entertainment,2327.58,ACH,INV-00119,Client Entertainment - Crestview Group,Pending
+TXN-00069,2025-07-12,VEND-0031,Anchor Services,Engineering,Hardware,3220.05,ACH,INV-00069,Hardware - Anchor Services,Approved
+TXN-00510,2025-07-12,VEND-0004,ABC Supplies,Sales,Client Entertainment,18120.7,ACH,INV-00510,Client Entertainment - ABC Supplies,Pending
+TXN-00664,2025-07-12,VEND-0017,Redline Partners,Engineering,Software Licenses,2128.14,ACH,INV-00664,Software Licenses - Redline Partners,Approved
+TXN-00233,2025-07-13,VEND-0011,Crestview Enterprises,Finance,Consulting,3623.87,Cheque,INV-00233,Consulting - Crestview Enterprises,Approved
+TXN-00243,2025-07-13,VEND-0014,Vertex Traders,HR,Payroll Services,1145.53,Bank Transfer,INV-00243,Payroll Services - Vertex Traders,Pending
+TXN-00291,2025-07-13,VEND-0010,Anchor Services,Operations,Facilities,10970.9,Bank Transfer,INV-00291,Facilities - Anchor Services,Pending
+TXN-00158,2025-07-13,VEND-0038,Summit Traders,Sales,Travel,803.7,ACH,INV-00158,Travel - Summit Traders,Approved
+TXN-00451,2025-07-13,VEND-0030,Prime Solutions,HR,Recruiting,3475.43,Bank Transfer,INV-00451,Recruiting - Prime Solutions,Approved
+TXN-00205,2025-07-13,VEND-0037,Silverline Solutions,Engineering,Contractors,5263.2,Bank Transfer,INV-00205,Contractors - Silverline Solutions,Approved
+TXN-00326,2025-07-13,VEND-0023,Anchor Enterprises,Finance,Consulting,4667.75,ACH,INV-00326,Consulting - Anchor Enterprises,Approved
+TXN-00418,2025-07-14,VEND-0024,Crestview Partners,HR,Payroll Services,2421.01,Corporate Card,INV-00418,Payroll Services - Crestview Partners,Approved
+TXN-00574,2025-07-14,VEND-0008,Anchor Partners,Finance,Audit Fees,10190.8,Bank Transfer,INV-00574,Audit Fees - Anchor Partners,Approved
+TXN-00245,2025-07-14,VEND-0017,Redline Partners,Marketing,Advertising,2792.58,Corporate Card,INV-00245,Advertising - Redline Partners,Approved
+TXN-00227,2025-07-14,VEND-0012,Silverline Services,Marketing,Advertising,2931.15,Corporate Card,INV-00227,Advertising - Silverline Services,Pending
+TXN-00420,2025-07-15,VEND-0027,Silverline Enterprises,Finance,Consulting,500.0,ACH,INV-00420,Consulting - Silverline Enterprises,Approved
+TXN-00388,2025-07-15,VEND-0006,Silverline Group,Marketing,Events,4093.47,Bank Transfer,INV-00388,Events - Silverline Group,Approved
+TXN-00663,2025-07-15,VEND-0017,Redline Partners,Engineering,Software Licenses,2128.14,ACH,INV-00663,Software Licenses - Redline Partners,Approved
+TXN-00273,2025-07-15,VEND-0003,Silverline Services,Sales,Client Entertainment,7044.44,Corporate Card,INV-00273,Client Entertainment - Silverline Services,Pending
+TXN-00380,2025-07-16,VEND-0023,Anchor Enterprises,Engineering,Software Licenses,4415.37,Cheque,INV-00380,Software Licenses - Anchor Enterprises,Approved
+TXN-00519,2025-07-16,VEND-0021,Silverline Traders,Marketing,Advertising,21200.34,Corporate Card,INV-00519,Advertising - Silverline Traders,Pending
+TXN-00653,2025-07-16,VEND-0023,Anchor Enterprises,Finance,Consulting,4615.64,ACH,INV-00653,Consulting - Anchor Enterprises,Approved
+TXN-00071,2025-07-17,VEND-0040,Redline Supplies,Operations,Logistics,6581.2,Bank Transfer,INV-00071,Logistics - Redline Supplies,Approved
+TXN-00535,2025-07-17,VEND-0019,Prime Solutions,HR,Benefits Admin,1583.63,Bank Transfer,INV-00535,Benefits Admin - Prime Solutions,Approved
+TXN-00084,2025-07-17,VEND-0017,Redline Partners,Sales,Travel,1360.83,Bank Transfer,INV-00084,Travel - Redline Partners,Approved
+TXN-00202,2025-07-17,VEND-0032,Crestview Industries,Engineering,Software Licenses,23203.07,Cheque,INV-00202,Software Licenses - Crestview Industries,Approved
+TXN-00467,2025-07-18,VEND-0017,Redline Partners,Finance,Banking Fees,1812.83,Bank Transfer,INV-00467,Banking Fees - Redline Partners,Approved
+TXN-00601,2025-07-18,VEND-0014,Vertex Traders,Sales,Client Entertainment,1319.86,Corporate Card,INV-00601,Client Entertainment - Vertex Traders,Approved
+TXN-00299,2025-07-18,VEND-0039,Northstar Supplies,Operations,Office Supplies,2237.37,ACH,INV-00299,Office Supplies - Northstar Supplies,Pending
+TXN-00502,2025-07-18,VEND-0013,Silverline Enterprises,HR,Payroll Services,5930.35,Bank Transfer,INV-00502,Payroll Services - Silverline Enterprises,Approved
+TXN-00305,2025-07-18,VEND-0008,Anchor Partners,HR,Training,9988.23,Cheque,INV-00305,Training - Anchor Partners,Pending
+TXN-00629,2025-07-19,VEND-0025,Redline Group,Sales,Commissions,3098.8,ACH,INV-00629,Commissions - Redline Group,Approved
+TXN-00448,2025-07-19,VEND-0019,Prime Solutions,Engineering,Contractors,2273.18,Cheque,INV-00448,Contractors - Prime Solutions,Pending
+TXN-00355,2025-07-19,VEND-0012,Silverline Services,HR,Payroll Services,3582.59,Cheque,INV-00355,Payroll Services - Silverline Services,Approved
+TXN-00321,2025-07-19,VEND-0006,Silverline Group,Finance,Audit Fees,4934.83,Cheque,INV-00321,Audit Fees - Silverline Group,Approved
+TXN-00385,2025-07-19,VEND-0023,Anchor Enterprises,Engineering,Cloud Infrastructure,5030.23,Corporate Card,INV-00385,Cloud Infrastructure - Anchor Enterprises,Pending
+TXN-00138,2025-07-19,VEND-0014,Vertex Traders,Operations,Office Supplies,937.56,Bank Transfer,INV-00138,Office Supplies - Vertex Traders,Pending
+TXN-00354,2025-07-20,VEND-0027,Silverline Enterprises,Engineering,Hardware,2279.32,Cheque,INV-00354,Hardware - Silverline Enterprises,Approved
+TXN-00446,2025-07-20,VEND-0010,Anchor Services,Marketing,Content,8701.87,ACH,INV-00446,Content - Anchor Services,Pending
+TXN-00570,2025-07-20,VEND-0019,Prime Solutions,Marketing,Events,2988.27,Cheque,INV-00570,Events - Prime Solutions,Approved
+TXN-00218,2025-07-21,VEND-0040,Redline Supplies,Operations,Utilities,7835.39,Bank Transfer,INV-00218,Utilities - Redline Supplies,Approved
+TXN-00373,2025-07-21,VEND-0032,Crestview Industries,Engineering,Hardware,29149.5,Cheque,INV-00373,Hardware - Crestview Industries,Approved
+TXN-00619,2025-07-21,VEND-0016,Bluewave Services,Sales,Commissions,3387.78,Corporate Card,INV-00619,Commissions - Bluewave Services,Approved
+TXN-00530,2025-07-22,VEND-0041,Summit Traders,Engineering,Contractors,7651.47,ACH,INV-00530,Contractors - Summit Traders,Pending
+TXN-00445,2025-07-23,VEND-0023,Anchor Enterprises,Sales,Travel,4302.63,Corporate Card,INV-00445,Travel - Anchor Enterprises,Approved
+TXN-00552,2025-07-23,VEND-0013,Silverline Enterprises,HR,Training,6250.72,ACH,INV-00552,Training - Silverline Enterprises,Approved
+TXN-00335,2025-07-23,VEND-0012,Silverline Services,HR,Benefits Admin,3149.18,Bank Transfer,INV-00335,Benefits Admin - Silverline Services,Approved
+TXN-00092,2025-07-23,VEND-0011,Crestview Enterprises,Operations,Facilities,3723.56,Bank Transfer,INV-00092,Facilities - Crestview Enterprises,Pending
+TXN-00640,2025-07-23,VEND-0009,Bluewave Partners,Operations,Utilities,3193.86,Corporate Card,INV-00640,Utilities - Bluewave Partners,Approved
+TXN-00541,2025-07-24,VEND-0032,Crestview Industries,Engineering,Cloud Infrastructure,22231.38,Cheque,INV-00541,Cloud Infrastructure - Crestview Industries,Approved
+TXN-00391,2025-07-24,VEND-0037,Silverline Solutions,Marketing,Content,7600.77,Bank Transfer,INV-00391,Content - Silverline Solutions,Approved
+TXN-00154,2025-07-25,VEND-0005,Bluewave Supplies,Finance,Software Subscriptions,3195.48,ACH,INV-00154,Software Subscriptions - Bluewave Supplies,Approved
+TXN-00407,2025-07-25,VEND-0021,Silverline Traders,HR,Training,15103.07,Corporate Card,INV-00407,Training - Silverline Traders,Approved
+TXN-00534,2025-07-25,VEND-0017,Redline Partners,Sales,Travel,1804.88,Bank Transfer,INV-00534,Travel - Redline Partners,Pending
+TXN-00485,2025-07-25,VEND-0021,Silverline Traders,Finance,Software Subscriptions,21145.89,Corporate Card,INV-00485,Software Subscriptions - Silverline Traders,Approved
+TXN-00090,2025-07-26,VEND-0031,Anchor Services,Marketing,Content,2249.72,ACH,INV-00090,Content - Anchor Services,Pending
+TXN-00221,2025-07-26,VEND-0017,Redline Partners,Operations,Facilities,2520.66,Corporate Card,INV-00221,Facilities - Redline Partners,Approved
+TXN-00075,2025-07-26,VEND-0002,Bluewave Traders,HR,Recruiting,2996.67,ACH,INV-00075,Recruiting - Bluewave Traders,Pending
+TXN-00133,2025-07-26,VEND-0019,Prime Solutions,Finance,Banking Fees,2153.36,Bank Transfer,INV-00133,Banking Fees - Prime Solutions,Approved
+TXN-00239,2025-07-26,VEND-0029,Northstar Industries,Marketing,Content,1850.66,ACH,INV-00239,Content - Northstar Industries,Approved
+TXN-00346,2025-07-26,VEND-0006,Silverline Group,Engineering,Hardware,2584.85,Cheque,INV-00346,Hardware - Silverline Group,Approved
+TXN-00427,2025-07-26,VEND-0033,Silverline Supplies,Finance,Banking Fees,5069.99,Cheque,INV-00427,Banking Fees - Silverline Supplies,Approved
+TXN-00608,2025-07-27,VEND-0019,Prime Solutions,Finance,Audit Fees,2026.1,Bank Transfer,INV-00608,Audit Fees - Prime Solutions,Approved
+TXN-00047,2025-07-27,VEND-0031,Anchor Services,Operations,Utilities,3911.95,Cheque,INV-00047,Utilities - Anchor Services,Approved
+TXN-00294,2025-07-27,VEND-0007,Crestview Enterprises,Finance,Audit Fees,16126.99,Cheque,INV-00294,Audit Fees - Crestview Enterprises,Approved
+TXN-00020,2025-07-27,VEND-0023,Anchor Enterprises,HR,Training,1982.12,Bank Transfer,INV-00020,Training - Anchor Enterprises,Approved
+TXN-00056,2025-07-27,VEND-0042,Crestview Services,Engineering,Contractors,6200.18,Cheque,INV-00056,Contractors - Crestview Services,Pending
+TXN-00622,2025-07-28,VEND-0009,Bluewave Partners,Finance,Audit Fees,3012.52,Cheque,INV-00622,Audit Fees - Bluewave Partners,Approved
+TXN-00186,2025-07-28,VEND-0004,ABC Supplies,Finance,Banking Fees,17218.53,ACH,INV-00186,Banking Fees - ABC Supplies,Approved
+TXN-00635,2025-07-28,VEND-0032,Crestview Industries,Sales,Software Subscriptions,16660.61,Corporate Card,INV-00635,Software Subscriptions - Crestview Industries,Approved
+TXN-00539,2025-07-29,VEND-0009,Bluewave Partners,Engineering,Software Licenses,3695.74,Cheque,INV-00539,Software Licenses - Bluewave Partners,Approved
+TXN-00568,2025-07-29,VEND-0045,Crestview Group,Engineering,Cloud Infrastructure,1966.17,ACH,INV-00568,Cloud Infrastructure - Crestview Group,Pending
+TXN-00120,2025-07-29,VEND-0009,Bluewave Partners,Sales,Software Subscriptions,3273.56,ACH,INV-00120,Software Subscriptions - Bluewave Partners,Pending
+TXN-00151,2025-07-29,VEND-0030,Prime Solutions,Operations,Logistics,4583.21,ACH,INV-00151,Logistics - Prime Solutions,Approved
+TXN-00193,2025-07-29,VEND-0019,Prime Solutions,Finance,Consulting,1657.53,Corporate Card,INV-00193,Consulting - Prime Solutions,Approved
+TXN-00646,2025-07-29,VEND-0003,Silverline Services,Operations,Office Supplies,8717.38,Bank Transfer,INV-00646,Office Supplies - Silverline Services,Pending
+TXN-00639,2025-07-30,VEND-0027,Silverline Enterprises,Finance,Banking Fees,1898.11,Bank Transfer,INV-00639,Banking Fees - Silverline Enterprises,Approved
+TXN-00334,2025-07-30,VEND-0001,Prime Supplies,Marketing,Events,7292.91,Corporate Card,INV-00334,Events - Prime Supplies,Approved
+TXN-00361,2025-07-30,VEND-0006,Silverline Group,HR,Benefits Admin,4830.37,Cheque,INV-00361,Benefits Admin - Silverline Group,Approved
+TXN-00483,2025-07-31,VEND-0038,Summit Traders,HR,Recruiting,1031.85,Cheque,INV-00483,Recruiting - Summit Traders,Approved
+TXN-00489,2025-07-31,VEND-0039,Northstar Supplies,Engineering,Contractors,1698.79,Corporate Card,INV-00489,Contractors - Northstar Supplies,Pending
+TXN-00521,2025-07-31,VEND-0001,Prime Supplies,Sales,Software Subscriptions,7440.54,ACH,INV-00521,Software Subscriptions - Prime Supplies,Approved
+TXN-00270,2025-07-31,VEND-0034,Silverline Enterprises,HR,Training,1491.72,ACH,INV-00270,Training - Silverline Enterprises,Approved
+TXN-00149,2025-08-01,VEND-0003,Silverline Services,Sales,Client Entertainment,7296.51,Corporate Card,INV-00149,Client Entertainment - Silverline Services,Approved
+TXN-00424,2025-08-01,VEND-0041,Summit Traders,Marketing,Software Subscriptions,12478.45,Bank Transfer,INV-00424,Software Subscriptions - Summit Traders,Approved
+TXN-00473,2025-08-02,VEND-0026,Northstar Enterprises,Marketing,Content,6088.01,ACH,INV-00473,Content - Northstar Enterprises,Approved
+TXN-00642,2025-08-02,VEND-0019,Prime Solutions,Marketing,Events,2667.63,Corporate Card,INV-00642,Events - Prime Solutions,Approved
+TXN-00210,2025-08-03,VEND-0027,Silverline Enterprises,Marketing,Content,2523.94,Corporate Card,INV-00210,Content - Silverline Enterprises,Approved
+TXN-00341,2025-08-03,VEND-0013,Silverline Enterprises,Engineering,Hardware,4037.37,Corporate Card,INV-00341,Hardware - Silverline Enterprises,Pending
+TXN-00175,2025-08-03,VEND-0003,Silverline Services,HR,Recruiting,8799.43,ACH,INV-00175,Recruiting - Silverline Services,Approved
+TXN-00176,2025-08-03,VEND-0034,Silverline Enterprises,Operations,Utilities,1404.9,Cheque,INV-00176,Utilities - Silverline Enterprises,Approved
+TXN-00224,2025-08-03,VEND-0024,Crestview Partners,HR,Recruiting,666.51,Cheque,INV-00224,Recruiting - Crestview Partners,Approved
+TXN-00027,2025-08-04,VEND-0042,Crestview Services,HR,Benefits Admin,4486.57,Bank Transfer,INV-00027,Benefits Admin - Crestview Services,Approved
+TXN-00121,2025-08-04,VEND-0033,Silverline Supplies,HR,Recruiting,7010.78,Bank Transfer,INV-00121,Recruiting - Silverline Supplies,Approved
+TXN-00188,2025-08-04,VEND-0020,Northstar Industries,HR,Benefits Admin,1646.21,Corporate Card,INV-00188,Benefits Admin - Northstar Industries,Approved
+TXN-00372,2025-08-04,VEND-0044,Redline Solutions,Finance,Banking Fees,4414.29,ACH,INV-00372,Banking Fees - Redline Solutions,Approved
+TXN-00584,2025-08-04,VEND-0027,Silverline Enterprises,Marketing,Software Subscriptions,2537.76,Bank Transfer,INV-00584,Software Subscriptions - Silverline Enterprises,Pending
+TXN-00565,2025-08-04,VEND-0045,Crestview Group,HR,Recruiting,2074.67,Corporate Card,INV-00565,Recruiting - Crestview Group,Pending
+TXN-00096,2025-08-05,VEND-0008,Anchor Partners,Finance,Banking Fees,8844.68,ACH,INV-00096,Banking Fees - Anchor Partners,Pending
+TXN-00345,2025-08-05,VEND-0025,Redline Group,Operations,Office Supplies,3106.4,ACH,INV-00345,Office Supplies - Redline Group,Approved
+TXN-00308,2025-08-05,VEND-0012,Silverline Services,Marketing,Content,3043.38,ACH,INV-00308,Content - Silverline Services,Pending
+TXN-00241,2025-08-06,VEND-0014,Vertex Traders,Operations,Utilities,1209.45,ACH,INV-00241,Utilities - Vertex Traders,Approved
+TXN-00337,2025-08-06,VEND-0042,Crestview Services,HR,Payroll Services,6393.19,Bank Transfer,INV-00337,Payroll Services - Crestview Services,Pending
+TXN-00141,2025-08-07,VEND-0044,Redline Solutions,Engineering,Hardware,3871.21,ACH,INV-00141,Hardware - Redline Solutions,Approved
+TXN-00051,2025-08-07,VEND-0022,ABC Traders,Marketing,Content,4578.48,Cheque,INV-00051,Content - ABC Traders,Approved
+TXN-00160,2025-08-07,VEND-0045,Crestview Group,Operations,Logistics,1878.74,ACH,INV-00160,Logistics - Crestview Group,Approved
+TXN-00429,2025-08-08,VEND-0012,Silverline Services,HR,Training,3470.32,ACH,INV-00429,Training - Silverline Services,Approved
+TXN-00546,2025-08-08,VEND-0040,Redline Supplies,HR,Benefits Admin,4186.38,ACH,INV-00546,Benefits Admin - Redline Supplies,Pending
+TXN-00126,2025-08-08,VEND-0021,Silverline Traders,Engineering,Hardware,12730.8,Corporate Card,INV-00126,Hardware - Silverline Traders,Pending
+TXN-00566,2025-08-08,VEND-0040,Redline Supplies,Finance,Software Subscriptions,8557.82,Corporate Card,INV-00566,Software Subscriptions - Redline Supplies,Approved
+TXN-00288,2025-08-09,VEND-0042,Crestview Services,Sales,Travel,7011.49,Corporate Card,INV-00288,Travel - Crestview Services,Approved
+TXN-00631,2025-08-09,VEND-0035,Prime Enterprises,HR,Training,9323.09,Bank Transfer,INV-00631,Training - Prime Enterprises,Approved
+TXN-00292,2025-08-10,VEND-0024,Crestview Partners,Sales,Travel,1470.27,ACH,INV-00292,Travel - Crestview Partners,Approved
+TXN-00032,2025-08-10,VEND-0016,Bluewave Services,Marketing,Advertising,4247.41,ACH,INV-00032,Advertising - Bluewave Services,Approved
+TXN-00474,2025-08-10,VEND-0009,Bluewave Partners,Operations,Facilities,2019.32,Cheque,INV-00474,Facilities - Bluewave Partners,Approved
+TXN-00135,2025-08-10,VEND-0030,Prime Solutions,Engineering,Contractors,4471.41,ACH,INV-00135,Contractors - Prime Solutions,Approved
+TXN-00113,2025-08-11,VEND-0021,Silverline Traders,Finance,Software Subscriptions,15012.93,ACH,INV-00113,Software Subscriptions - Silverline Traders,Approved
+TXN-00171,2025-08-11,VEND-0011,Crestview Enterprises,Operations,Logistics,4660.54,ACH,INV-00171,Logistics - Crestview Enterprises,Approved
+TXN-00383,2025-08-11,VEND-0032,Crestview Industries,HR,Training,18097.91,Corporate Card,INV-00383,Training - Crestview Industries,Approved
+TXN-00415,2025-08-12,VEND-0011,Crestview Enterprises,Engineering,Software Licenses,1937.78,ACH,INV-00415,Software Licenses - Crestview Enterprises,Pending
+TXN-00338,2025-08-12,VEND-0004,ABC Supplies,Finance,Banking Fees,13704.71,Cheque,INV-00338,Banking Fees - ABC Supplies,Pending
+TXN-00430,2025-08-12,VEND-0029,Northstar Industries,Marketing,Content,3827.77,ACH,INV-00430,Content - Northstar Industries,Approved
+TXN-00295,2025-08-12,VEND-0020,Northstar Industries,Operations,Logistics,1123.89,Corporate Card,INV-00295,Logistics - Northstar Industries,Approved
+TXN-00504,2025-08-13,VEND-0003,Silverline Services,Operations,Utilities,10375.11,Bank Transfer,INV-00504,Utilities - Silverline Services,Approved
+TXN-00127,2025-08-13,VEND-0002,Bluewave Traders,HR,Training,3961.11,Corporate Card,INV-00127,Training - Bluewave Traders,Approved
+TXN-00246,2025-08-13,VEND-0017,Redline Partners,Operations,Logistics,1518.85,Corporate Card,INV-00246,Logistics - Redline Partners,Approved
+TXN-00386,2025-08-14,VEND-0018,Vertex Traders,Sales,Commissions,3323.09,Corporate Card,INV-00386,Commissions - Vertex Traders,Approved
+TXN-00315,2025-08-14,VEND-0037,Silverline Solutions,Sales,Software Subscriptions,4094.71,Cheque,INV-00315,Software Subscriptions - Silverline Solutions,Approved
+TXN-00659,2025-08-14,VEND-0029,Northstar Industries,Marketing,Content,3827.77,ACH,INV-00659,Content - Northstar Industries,Approved
+TXN-00085,2025-08-14,VEND-0003,Silverline Services,Operations,Utilities,8501.41,Bank Transfer,INV-00085,Utilities - Silverline Services,Approved
+TXN-00417,2025-08-15,VEND-0043,Prime Solutions,Finance,Software Subscriptions,5319.35,Cheque,INV-00417,Software Subscriptions - Prime Solutions,Approved
+TXN-00159,2025-08-15,VEND-0006,Silverline Group,Engineering,Contractors,2421.79,Corporate Card,INV-00159,Contractors - Silverline Group,Approved
+TXN-00063,2025-08-15,VEND-0035,Prime Enterprises,Engineering,Software Licenses,7594.24,Bank Transfer,INV-00063,Software Licenses - Prime Enterprises,Approved
+TXN-00660,2025-08-16,VEND-0029,Northstar Industries,Marketing,Content,3827.77,ACH,INV-00660,Content - Northstar Industries,Approved
+TXN-00455,2025-08-16,VEND-0010,Anchor Services,Finance,Consulting,4706.13,ACH,INV-00455,Consulting - Anchor Services,Approved
+TXN-00140,2025-08-16,VEND-0012,Silverline Services,Sales,Travel,5265.87,ACH,INV-00140,Travel - Silverline Services,Pending
+TXN-00207,2025-08-16,VEND-0019,Prime Solutions,Engineering,Cloud Infrastructure,1962.6,Cheque,INV-00207,Cloud Infrastructure - Prime Solutions,Pending
+TXN-00636,2025-08-16,VEND-0003,Silverline Services,Marketing,Events,9901.87,Corporate Card,INV-00636,Events - Silverline Services,Pending
+TXN-00571,2025-08-16,VEND-0039,Northstar Supplies,Finance,Audit Fees,1307.05,Cheque,INV-00571,Audit Fees - Northstar Supplies,Approved
+TXN-00058,2025-08-16,VEND-0043,Prime Solutions,Finance,Software Subscriptions,4234.33,Bank Transfer,INV-00058,Software Subscriptions - Prime Solutions,Pending
+TXN-00028,2025-08-17,VEND-0030,Prime Solutions,HR,Benefits Admin,5916.92,Bank Transfer,INV-00028,Benefits Admin - Prime Solutions,Approved
+TXN-00269,2025-08-17,VEND-0015,ABC Traders,Marketing,Advertising,1139.6,Cheque,INV-00269,Advertising - ABC Traders,Approved
+TXN-00370,2025-08-17,VEND-0028,Anchor Group,HR,Benefits Admin,8135.17,ACH,INV-00370,Benefits Admin - Anchor Group,Approved
+TXN-00306,2025-08-17,VEND-0015,ABC Traders,Marketing,Content,848.08,Cheque,INV-00306,Content - ABC Traders,Pending
+TXN-00156,2025-08-17,VEND-0024,Crestview Partners,Sales,Commissions,1531.14,Corporate Card,INV-00156,Commissions - Crestview Partners,Pending
+TXN-00290,2025-08-18,VEND-0004,ABC Supplies,Sales,Client Entertainment,17611.91,Bank Transfer,INV-00290,Client Entertainment - ABC Supplies,Approved
+TXN-00054,2025-08-18,VEND-0022,ABC Traders,Engineering,Contractors,2720.93,ACH,INV-00054,Contractors - ABC Traders,Approved
+TXN-00041,2025-08-19,VEND-0027,Silverline Enterprises,Operations,Office Supplies,1199.3,Corporate Card,INV-00041,Office Supplies - Silverline Enterprises,Pending
+TXN-00219,2025-08-19,VEND-0034,Silverline Enterprises,HR,Benefits Admin,2603.54,Bank Transfer,INV-00219,Benefits Admin - Silverline Enterprises,Pending
+TXN-00309,2025-08-19,VEND-0032,Crestview Industries,Marketing,Advertising,27755.26,ACH,INV-00309,Advertising - Crestview Industries,Pending
+TXN-00265,2025-08-19,VEND-0023,Anchor Enterprises,Operations,Utilities,4454.76,Bank Transfer,INV-00265,Utilities - Anchor Enterprises,Approved
+TXN-00019,2025-08-20,VEND-0017,Redline Partners,Marketing,Advertising,1032.41,Corporate Card,INV-00019,Advertising - Redline Partners,Pending
+TXN-00524,2025-08-20,VEND-0035,Prime Enterprises,HR,Recruiting,10243.76,Corporate Card,INV-00524,Recruiting - Prime Enterprises,Pending
+TXN-00187,2025-08-20,VEND-0006,Silverline Group,Operations,Facilities,2302.1,Corporate Card,INV-00187,Facilities - Silverline Group,Pending
+TXN-00230,2025-08-20,VEND-0016,Bluewave Services,HR,Recruiting,3784.66,Bank Transfer,INV-00230,Recruiting - Bluewave Services,Pending
+TXN-00523,2025-08-20,VEND-0009,Bluewave Partners,HR,Training,3312.83,Cheque,INV-00523,Training - Bluewave Partners,Approved
+TXN-00411,2025-08-20,VEND-0041,Summit Traders,Marketing,Software Subscriptions,12487.29,Cheque,INV-00411,Software Subscriptions - Summit Traders,Approved
+TXN-00499,2025-08-20,VEND-0027,Silverline Enterprises,Marketing,Software Subscriptions,2577.86,ACH,INV-00499,Software Subscriptions - Silverline Enterprises,Approved
+TXN-00313,2025-08-21,VEND-0033,Silverline Supplies,Marketing,Events,6822.11,ACH,INV-00313,Events - Silverline Supplies,Approved
+TXN-00507,2025-08-21,VEND-0032,Crestview Industries,Sales,Commissions,16879.28,Corporate Card,INV-00507,Commissions - Crestview Industries,Pending
+TXN-00470,2025-08-21,VEND-0012,Silverline Services,Engineering,Contractors,2665.68,Cheque,INV-00470,Contractors - Silverline Services,Pending
+TXN-00170,2025-08-21,VEND-0010,Anchor Services,Sales,Software Subscriptions,8581.19,Corporate Card,INV-00170,Software Subscriptions - Anchor Services,Approved
+TXN-00513,2025-08-21,VEND-0005,Bluewave Supplies,Operations,Facilities,4093.95,Corporate Card,INV-00513,Facilities - Bluewave Supplies,Approved
+TXN-00177,2025-08-21,VEND-0022,ABC Traders,Engineering,Hardware,2984.48,Corporate Card,INV-00177,Hardware - ABC Traders,Approved
+TXN-00328,2025-08-22,VEND-0036,Redline Supplies,Sales,Commissions,1634.9,Cheque,INV-00328,Commissions - Redline Supplies,Approved
+TXN-00497,2025-08-22,VEND-0003,Silverline Services,HR,Training,5740.98,Bank Transfer,INV-00497,Training - Silverline Services,Approved
+TXN-00249,2025-08-22,VEND-0039,Northstar Supplies,HR,Payroll Services,2274.75,Cheque,INV-00249,Payroll Services - Northstar Supplies,Approved
+TXN-00320,2025-08-22,VEND-0020,Northstar Industries,Sales,Travel,1253.06,Cheque,INV-00320,Travel - Northstar Industries,Approved
+TXN-00216,2025-08-23,VEND-0021,Silverline Traders,Operations,Utilities,16765.96,ACH,INV-00216,Utilities - Silverline Traders,Approved
+TXN-00401,2025-08-23,VEND-0012,Silverline Services,Engineering,Contractors,3990.56,Cheque,INV-00401,Contractors - Silverline Services,Approved
+TXN-00035,2025-08-24,VEND-0033,Silverline Supplies,Marketing,Advertising,4866.14,Corporate Card,INV-00035,Advertising - Silverline Supplies,Approved
+TXN-00103,2025-08-24,VEND-0030,Prime Solutions,Sales,Client Entertainment,3992.86,ACH,INV-00103,Client Entertainment - Prime Solutions,Approved
+TXN-00195,2025-08-24,VEND-0019,Prime Solutions,Operations,Facilities,2808.32,Cheque,INV-00195,Facilities - Prime Solutions,Approved
+TXN-00471,2025-08-24,VEND-0038,Summit Traders,Finance,Software Subscriptions,1153.1,Bank Transfer,INV-00471,Software Subscriptions - Summit Traders,Approved
+TXN-00364,2025-08-24,VEND-0043,Prime Solutions,HR,Benefits Admin,5781.93,Bank Transfer,INV-00364,Benefits Admin - Prime Solutions,Approved
+TXN-00072,2025-08-25,VEND-0013,Silverline Enterprises,Engineering,Contractors,7918.25,Corporate Card,INV-00072,Contractors - Silverline Enterprises,Approved
+TXN-00318,2025-08-25,VEND-0003,Silverline Services,Engineering,Hardware,11315.85,ACH,INV-00318,Hardware - Silverline Services,Approved
+TXN-00303,2025-08-25,VEND-0033,Silverline Supplies,Engineering,Contractors,5317.77,ACH,INV-00303,Contractors - Silverline Supplies,Pending
+TXN-00511,2025-08-26,VEND-0037,Silverline Solutions,Marketing,Software Subscriptions,7281.94,ACH,INV-00511,Software Subscriptions - Silverline Solutions,Pending
+TXN-00296,2025-08-26,VEND-0032,Crestview Industries,Finance,Consulting,21793.41,ACH,INV-00296,Consulting - Crestview Industries,Approved
+TXN-00053,2025-08-26,VEND-0040,Redline Supplies,Operations,Office Supplies,7465.54,Cheque,INV-00053,Office Supplies - Redline Supplies,Approved
+TXN-00558,2025-08-27,VEND-0016,Bluewave Services,Finance,Banking Fees,4998.45,Corporate Card,INV-00558,Banking Fees - Bluewave Services,Pending
+TXN-00189,2025-08-27,VEND-0009,Bluewave Partners,Finance,Consulting,2935.24,Cheque,INV-00189,Consulting - Bluewave Partners,Approved
+TXN-00607,2025-08-27,VEND-0012,Silverline Services,HR,Payroll Services,1861.71,Cheque,INV-00607,Payroll Services - Silverline Services,Pending
+TXN-00544,2025-08-27,VEND-0012,Silverline Services,Operations,Utilities,2738.25,Corporate Card,INV-00544,Utilities - Silverline Services,Approved
+TXN-00125,2025-08-27,VEND-0025,Redline Group,Finance,Banking Fees,3874.42,ACH,INV-00125,Banking Fees - Redline Group,Approved
+TXN-00374,2025-08-28,VEND-0011,Crestview Enterprises,Operations,Logistics,2276.65,Corporate Card,INV-00374,Logistics - Crestview Enterprises,Approved
+TXN-00283,2025-08-28,VEND-0044,Redline Solutions,Sales,Client Entertainment,2826.07,ACH,INV-00283,Client Entertainment - Redline Solutions,Pending
+TXN-00095,2025-08-29,VEND-0036,Redline Supplies,Finance,Consulting,2151.43,Corporate Card,INV-00095,Consulting - Redline Supplies,Pending
+TXN-00331,2025-08-29,VEND-0027,Silverline Enterprises,Engineering,Hardware,2461.77,Corporate Card,INV-00331,Hardware - Silverline Enterprises,Pending
+TXN-00512,2025-08-29,VEND-0006,Silverline Group,Operations,Facilities,3568.79,Bank Transfer,INV-00512,Facilities - Silverline Group,Approved
+TXN-00362,2025-08-29,VEND-0001,Prime Supplies,HR,Payroll Services,7207.52,Cheque,INV-00362,Payroll Services - Prime Supplies,Pending
+TXN-00531,2025-08-29,VEND-0020,Northstar Industries,Sales,Commissions,1696.87,ACH,INV-00531,Commissions - Northstar Industries,Pending
+TXN-00144,2025-08-29,VEND-0021,Silverline Traders,HR,Training,15032.2,Corporate Card,INV-00144,Training - Silverline Traders,Pending
+TXN-00478,2025-08-30,VEND-0025,Redline Group,Engineering,Contractors,3073.3,Corporate Card,INV-00478,Contractors - Redline Group,Approved
+TXN-00209,2025-08-30,VEND-0007,Crestview Enterprises,Marketing,Software Subscriptions,15191.48,ACH,INV-00209,Software Subscriptions - Crestview Enterprises,Approved
+TXN-00277,2025-08-30,VEND-0043,Prime Solutions,Operations,Facilities,2597.69,Bank Transfer,INV-00277,Facilities - Prime Solutions,Pending
+TXN-00384,2025-08-31,VEND-0008,Anchor Partners,Sales,Software Subscriptions,9821.51,ACH,INV-00384,Software Subscriptions - Anchor Partners,Approved
+TXN-00297,2025-08-31,VEND-0029,Northstar Industries,Engineering,Cloud Infrastructure,1954.98,ACH,INV-00297,Cloud Infrastructure - Northstar Industries,Approved
+TXN-00062,2025-08-31,VEND-0018,Vertex Traders,HR,Training,5298.97,ACH,INV-00062,Training - Vertex Traders,Pending

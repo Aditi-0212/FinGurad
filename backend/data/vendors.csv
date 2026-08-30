@@ -1,0 +1,46 @@
+vendor_id,vendor_name,vendor_age,industry,risk_level,total_transactions,average_transaction
+VEND-0001,Prime Supplies,87,SaaS,LOW,14,7114.87
+VEND-0002,Bluewave Traders,41,Logistics,LOW,11,5591.5
+VEND-0003,Silverline Services,19,Marketing Agency,LOW,14,8004.26
+VEND-0004,ABC Supplies,60,IT Services,LOW,13,17754.77
+VEND-0005,Bluewave Supplies,33,Marketing Agency,LOW,14,3858.62
+VEND-0006,Silverline Group,31,Logistics,LOW,18,3698.79
+VEND-0007,Crestview Enterprises,63,IT Services,LOW,9,21336.26
+VEND-0008,Anchor Partners,26,Consulting,LOW,15,11982.12
+VEND-0009,Bluewave Partners,25,IT Services,LOW,26,3157.62
+VEND-0010,Anchor Services,17,Consulting,LOW,17,7295.9
+VEND-0011,Crestview Enterprises,50,IT Services,LOW,22,3268.66
+VEND-0012,Silverline Services,64,Manufacturing,LOW,17,3376.35
+VEND-0013,Silverline Enterprises,1,SaaS,MEDIUM,13,6228.11
+VEND-0014,Vertex Traders,85,SaaS,LOW,10,1109.05
+VEND-0015,ABC Traders,14,Consulting,LOW,10,1181.83
+VEND-0016,Bluewave Services,16,Manufacturing,LOW,11,3233.56
+VEND-0017,Redline Partners,41,Logistics,LOW,20,2036.38
+VEND-0018,Vertex Traders,53,SaaS,LOW,13,8459.9
+VEND-0019,Prime Solutions,40,Marketing Agency,LOW,20,2359.77
+VEND-0020,Northstar Industries,37,Manufacturing,LOW,21,1575.19
+VEND-0021,Silverline Traders,40,SaaS,LOW,16,16067.33
+VEND-0022,ABC Traders,47,IT Services,LOW,11,3650.99
+VEND-0023,Anchor Enterprises,46,IT Services,LOW,19,4625.0
+VEND-0024,Crestview Partners,33,Logistics,LOW,15,1608.79
+VEND-0025,Redline Group,89,SaaS,LOW,15,3338.99
+VEND-0026,Northstar Enterprises,64,Logistics,LOW,11,5445.68
+VEND-0027,Silverline Enterprises,37,SaaS,LOW,16,1999.47
+VEND-0028,Anchor Group,80,Consulting,LOW,16,6372.48
+VEND-0029,Northstar Industries,34,IT Services,LOW,16,3066.28
+VEND-0030,Prime Solutions,12,SaaS,MEDIUM,21,4252.42
+VEND-0031,Anchor Services,26,Manufacturing,LOW,9,3244.73
+VEND-0032,Crestview Industries,54,Marketing Agency,LOW,22,21465.13
+VEND-0033,Silverline Supplies,38,SaaS,LOW,17,5141.2
+VEND-0034,Silverline Enterprises,20,SaaS,LOW,12,2210.05
+VEND-0035,Prime Enterprises,2,Manufacturing,MEDIUM,14,8926.41
+VEND-0036,Redline Supplies,26,SaaS,LOW,8,1925.26
+VEND-0037,Silverline Solutions,39,Marketing Agency,LOW,11,7920.44
+VEND-0038,Summit Traders,19,Logistics,LOW,13,991.11
+VEND-0039,Northstar Supplies,53,Marketing Agency,LOW,16,1834.46
+VEND-0040,Redline Supplies,47,IT Services,LOW,15,5912.96
+VEND-0041,Summit Traders,52,IT Services,LOW,12,9613.64
+VEND-0042,Crestview Services,36,IT Services,LOW,10,4899.35
+VEND-0043,Prime Solutions,68,Logistics,LOW,17,4274.16
+VEND-0044,Redline Solutions,90,Consulting,LOW,14,3608.73
+VEND-0045,Crestview Group,1,Logistics,MEDIUM,12,1789.86
