@@ -1,16 +1,19 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import api from '../api/client'
 import RiskBadge from '../components/RiskBadge'
 
 export default function Budgets() {
   const [budgets, setBudgets] = useState([])
   const [error, setError] = useState(null)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    api.getBudgets().then(setBudgets).catch((e) => setError(e.message))
+    api.getBudgets().then(setBudgets).catch((e) => setError(e.message)).finally(() => setLoading(false))
   }, [])
 
   if (error) return <div className="p-8 text-risk-high">Could not reach the backend ({error}).</div>
+  if (loading) return <div className="p-8 text-ink-muted">Loading this workspace’s budgets…</div>
 
   return (
     <div className="p-8 max-w-5xl mx-auto">
@@ -18,6 +21,11 @@ export default function Budgets() {
       <p className="text-sm text-ink-muted mb-6">Budget vs actual spending by department and month.</p>
 
       <div className="bg-base-surface border border-base-border rounded-lg overflow-hidden">
+        {budgets.length === 0 ? <div className="px-5 py-10 text-center">
+          <p className="text-sm text-ink-primary">No budget data is saved in this workspace yet.</p>
+          <p className="mt-1 text-xs text-ink-faint">Upload a budget CSV to see utilization and overrun analysis.</p>
+          <Link to="/ingestion" className="mt-4 inline-block text-sm text-accent">Upload budget data →</Link>
+        </div> :
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b border-base-border text-left text-[11px] uppercase tracking-wide text-ink-faint">
@@ -47,7 +55,7 @@ export default function Budgets() {
               </tr>
             ))}
           </tbody>
-        </table>
+        </table>}
       </div>
     </div>
   )

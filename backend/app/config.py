@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     database_url: str
     groq_api_key: str = ""
     groq_model: str = "openai/gpt-oss-120b"
+    auth_secret: str = ""
     cors_origins: str = "http://localhost:5173"
     environment: str = "development"
 

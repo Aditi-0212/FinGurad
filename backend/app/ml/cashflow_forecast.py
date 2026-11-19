@@ -41,18 +41,40 @@ class CashflowForecast:
 
 
 def forecast_cashflow(transactions_df: pd.DataFrame, receivables_df: pd.DataFrame) -> CashflowForecast:
+    if transactions_df.empty and receivables_df.empty:
+        return CashflowForecast(
+            as_of_date="",
+            current_cash_estimate=0.0,
+            daily_net_change_trend=0.0,
+            projected_deficit_date=None,
+            days_until_deficit=None,
+            forecast_points=[],
+        )
     tx = transactions_df.copy()
-    tx["date"] = pd.to_datetime(tx["date"]).dt.date
-    daily_outflow = tx.groupby("date")["amount"].sum()
+    if tx.empty:
+        daily_outflow = pd.Series(dtype=float)
+    else:
+        tx["date"] = pd.to_datetime(tx["date"]).dt.date
+        daily_outflow = tx.groupby("date")["amount"].sum()
 
     rec = receivables_df.copy()
-    rec["due_date"] = pd.to_datetime(rec["due_date"]).dt.date
-    paid = rec[rec["payment_status"] == "Paid"]
-    daily_inflow = paid.groupby("due_date")["amount"].sum()
+    if rec.empty:
+        daily_inflow = pd.Series(dtype=float)
+    else:
+        rec["due_date"] = pd.to_datetime(rec["due_date"]).dt.date
+        paid = rec[rec["payment_status"] == "Paid"]
+        daily_inflow = paid.groupby("due_date")["amount"].sum()
 
     all_dates = sorted(set(daily_outflow.index) | set(daily_inflow.index))
     if not all_dates:
-        raise ValueError("No transaction or receivable dates available to forecast from")
+        return CashflowForecast(
+            as_of_date="",
+            current_cash_estimate=0.0,
+            daily_net_change_trend=0.0,
+            projected_deficit_date=None,
+            days_until_deficit=None,
+            forecast_points=[],
+        )
 
     net_daily = pd.Series(
         [daily_inflow.get(d, 0) - daily_outflow.get(d, 0) for d in all_dates],

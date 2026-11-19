@@ -22,6 +22,16 @@ export default function Cashflow() {
 
   const chartData = forecast.forecast_points.map((p) => ({ date: p.date.slice(5), cash: Math.round(p.projected_cash) }))
 
+  if (chartData.length === 0) return (
+    <div className="p-8 max-w-5xl mx-auto">
+      <h1 className="font-display text-xl font-semibold text-ink-primary mb-1">Cash Flow Forecast</h1>
+      <div className="mt-6 rounded-lg border border-base-border bg-base-surface p-8 text-center">
+        <p className="text-sm text-ink-primary">Cash flow can’t be projected from this workspace yet.</p>
+        <p className="mt-1 text-xs text-ink-faint">Upload transaction history and receivables to create this forecast.</p>
+      </div>
+    </div>
+  )
+
   return (
     <div className="p-8 max-w-5xl mx-auto">
       <h1 className="font-display text-xl font-semibold text-ink-primary mb-1">Cash Flow Forecast</h1>

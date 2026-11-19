@@ -137,3 +137,49 @@ class User(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     name = Column(String, nullable=False)
     role = Column(String, default="Finance Manager")
+
+
+class IngestionRun(Base):
+    __tablename__ = "ingestion_runs"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    dataset_type = Column(String, nullable=False)
+    filename = Column(String, nullable=False)
+    status = Column(String, nullable=False)
+    rows_received = Column(Integer, default=0)
+    rows_created = Column(Integer, default=0)
+    rows_updated = Column(Integer, default=0)
+    anomalies_found = Column(Integer, default=0)
+    error = Column(Text)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+
+class AnalysisReport(Base):
+    __tablename__ = "analysis_reports"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    ingestion_run_id = Column(Integer, ForeignKey("ingestion_runs.id"), nullable=False, unique=True)
+    report = Column(JSON, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+
+class Account(Base):
+    """Company account metadata is global; financial records live in its own schema."""
+    __tablename__ = "accounts"
+    __table_args__ = {"schema": "public"}
+
+    id = Column(String, primary_key=True)
+    company_name = Column(String, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+
+class AccountUser(Base):
+    __tablename__ = "account_users"
+    __table_args__ = {"schema": "public"}
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    account_id = Column(String, ForeignKey("public.accounts.id"), nullable=False, index=True)
+    name = Column(String, nullable=False)
+    email = Column(String, nullable=False, unique=True, index=True)
+    password_hash = Column(String, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)

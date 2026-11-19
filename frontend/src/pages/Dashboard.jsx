@@ -20,12 +20,12 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    Promise.all([api.getDashboard(), api.getBudgets(), api.getAnomalies('Open'), api.getCashflow()])
-      .then(([d, b, a, cf]) => {
+    api.getDashboard()
+      .then((d) => {
         setDashboard(d)
-        setBudgets(b)
-        setAnomalies(a.sort((x, y) => y.risk_score - x.risk_score).slice(0, 5))
-        setCashflow(cf)
+        setBudgets(d.budget_reports || [])
+        setAnomalies(d.top_anomalies || [])
+        setCashflow({ forecast_points: d.forecast_points || [] })
       })
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false))
@@ -43,6 +43,29 @@ export default function Dashboard() {
   const forecastChartData = cashflow?.forecast_points
     ?.filter((_, i) => i % 5 === 0)
     .map((p) => ({ date: p.date.slice(5), cash: Math.round(p.projected_cash) }))
+
+  if (dashboard.total_transactions === 0) {
+    return (
+      <div className="p-8 max-w-4xl mx-auto">
+        <div className="mb-8">
+          <p className="text-xs uppercase tracking-widest text-accent mb-2">FinGuard · Finance intelligence</p>
+          <h1 className="font-display text-3xl font-semibold text-ink-primary">Start with your finance data</h1>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-muted">{dashboard.total_vendors > 0 ? `${dashboard.total_vendors} vendor profiles are saved in this company workspace. Upload transactions to run the risk scan and create the finance report.` : 'This workspace is ready for your organization’s data. Upload CSV files to build your financial overview, detect unusual transactions, and investigate risk signals.'}</p>
+        </div>
+        <div className="grid gap-3 md:grid-cols-3 mb-6">
+          {[
+            ['01', 'Add vendors', 'Vendor IDs connect transactions to their history.'],
+            ['02', 'Import transactions', 'The anomaly engine analyzes the transaction history.'],
+            ['03', 'Add budgets and invoices', 'Complete budget, receivables, and cash flow views.'],
+          ].map(([number, title, description]) => <div key={number} className="rounded-lg border border-base-border bg-base-surface p-4">
+            <span className="font-mono text-xs text-accent">{number}</span><h2 className="mt-3 text-sm font-medium text-ink-primary">{title}</h2><p className="mt-1 text-xs leading-5 text-ink-muted">{description}</p>
+          </div>)}
+        </div>
+        <Link to="/ingestion" className="inline-flex rounded-md bg-accent px-4 py-2.5 text-sm font-medium text-base-bg hover:bg-accent-dim">Upload company data</Link>
+        <p className="mt-4 text-xs text-ink-faint">CSV records are analyzed by the existing finance rules and anomaly models. FinGuard starts empty; no bundled sample records are loaded automatically.</p>
+      </div>
+    )
+  }
 
   return (
     <div className="p-8 max-w-6xl mx-auto">

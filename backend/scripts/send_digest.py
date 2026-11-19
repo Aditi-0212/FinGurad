@@ -25,16 +25,17 @@ Schedule on Windows (daily at 8 AM):
 
 import smtplib
 import sys
+import argparse
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from app.config import get_settings
-from app.database.session import SessionLocal
+from app.database.session import get_workspace_session
 from app.services.digest_service import build_digest_data
 from app.services.digest_template import render_digest_html
 
 
-def send_digest():
+def send_digest(account_id: str):
     settings = get_settings()
 
     missing = [
@@ -46,7 +47,7 @@ def send_digest():
         print(f"Cannot send digest — missing settings: {', '.join(missing)}. Check your .env file.")
         sys.exit(1)
 
-    db = SessionLocal()
+    db = get_workspace_session(account_id)
     try:
         data = build_digest_data(db)
         html = render_digest_html(data)
@@ -68,4 +69,6 @@ def send_digest():
 
 
 if __name__ == "__main__":
-    send_digest()
+    parser = argparse.ArgumentParser(description="Send the daily digest for one FinGuard company workspace")
+    parser.add_argument("--account-id", required=True, help="Company account ID from the authentication response")
+    send_digest(parser.parse_args().account_id)

@@ -9,7 +9,7 @@ app/ai — main.py should never grow business logic of its own.
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api import actions, anomalies, assistant, audit_logs, budgets, cashflow, dashboard, receivables, transactions, vendors
+from app.api import actions, anomalies, assistant, audit_logs, auth, budgets, cashflow, dashboard, ingestion, receivables, transactions, vendors
 from app.config import get_settings
 
 settings = get_settings()
@@ -44,3 +44,5 @@ app.include_router(dashboard.router, prefix="/dashboard", tags=["dashboard"])
 app.include_router(actions.router, prefix="/actions", tags=["actions"])
 app.include_router(audit_logs.router, prefix="/audit-logs", tags=["audit-logs"])
 app.include_router(assistant.router, prefix="/assistant", tags=["assistant"])
+app.include_router(ingestion.router, prefix="/ingestion", tags=["ingestion"])
+app.include_router(auth.router, prefix="/auth", tags=["authentication"])

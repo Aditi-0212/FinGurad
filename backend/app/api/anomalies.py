@@ -5,17 +5,16 @@ from app.ai.controller import investigate_anomaly
 from app.database.models import Anomaly, Investigation
 from app.database.session import get_db
 from app.schemas.api_schemas import AnomalyOut, InvestigationOut
-from app.services.analytics_service import sync_anomalies
 
 router = APIRouter()
 
 
 @router.get("", response_model=list[AnomalyOut])
 def list_anomalies(status: str | None = None, db: Session = Depends(get_db)):
-    anomalies = sync_anomalies(db)
+    anomalies = db.query(Anomaly)
     if status:
-        anomalies = [a for a in anomalies if a.status == status]
-    return anomalies
+        anomalies = anomalies.filter(Anomaly.status == status)
+    return anomalies.order_by(Anomaly.risk_score.desc()).all()
 
 
 @router.get("/{anomaly_id}", response_model=AnomalyOut)

@@ -136,3 +136,6 @@ class DashboardOut(BaseModel):
     cashflow_days_until_deficit: int | None
     financial_health_score: int
     financial_health_breakdown: dict
+    budget_reports: list[dict] = []
+    top_anomalies: list[dict] = []
+    forecast_points: list[dict] = []
